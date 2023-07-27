@@ -6,6 +6,13 @@
 */
 @import url('./reset.css');
 @import url('./header.css');
+@import url('./main-hero-section.css');
+@import url('./main-aboutblock.css');
+@import url('./main-yahtsblock.css');
+@import url('./main-servicesblock.css');
+@import url('./main-rentblock.css');
+@import url('./main-rewievsblock.css');
+@import url('./footer.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
