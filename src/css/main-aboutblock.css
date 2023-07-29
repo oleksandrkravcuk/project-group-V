@@ -1,0 +1,30 @@
+button {
+  display: flex;
+  padding: 14px 28px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 60px;
+  border: 1px solid var(--white, #f6f5ef);
+}
+.main-aboutblock {
+}
+.aboutblock-container {
+}
+.aboutblock-title {
+  color: var(--white, #f6f5ef);
+  font-family: DM Sans;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%; /* 110px */
+  letter-spacing: -4.5px;
+}
+.aboutblock-button {
+  color: var(--white, #f6f5ef);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 19.8px */
+  letter-spacing: -0.81px;
+}
