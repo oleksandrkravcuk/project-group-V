@@ -5,10 +5,15 @@ button {
   gap: 10px;
   border-radius: 60px;
   border: 1px solid var(--white, #f6f5ef);
+  cursor: pointer;
 }
 .main-aboutblock {
 }
 .aboutblock-container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 64px;
 }
 .aboutblock-title {
   color: var(--white, #f6f5ef);
