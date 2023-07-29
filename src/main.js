@@ -3,13 +3,25 @@ showSlides(slideIndex);
 
 let prev = document.getElementById ('prev');
 let next = document.getElementById ('next');
+let per = document.getElementById ('per');
+let nex = document.getElementById ('nex');
 
 next.addEventListener ("click", function () {
     showSlides(slideIndex += 1);
     makeTimer();//Пересоздаем интервал если производится нажатие 
 });
 
+nex.addEventListener ("click", function () {
+    showSlides(slideIndex += 1);
+    makeTimer();//Пересоздаем интервал если производится нажатие 
+});
+
 prev.addEventListener ("click", function () {
+    showSlides(slideIndex -= 1);
+    makeTimer();//Пересоздаем интервал если производится нажатие 
+});
+
+per.addEventListener ("click", function () {
     showSlides(slideIndex -= 1);
     makeTimer();//Пересоздаем интервал если производится нажатие 
 });
@@ -45,9 +57,9 @@ function makeTimer(){
 
 
  //Таймер, (чтобы было удобнее считать время) можно удалить
-var seconds = 5;
+var seconds = 7;
 setInterval(()=>{
     seconds = seconds - 1;
-    if(!seconds){seconds = 5;}
+    if(!seconds){seconds = 7;}
         document.getElementById("timeVisual").innerHTML = seconds
 },1000)
