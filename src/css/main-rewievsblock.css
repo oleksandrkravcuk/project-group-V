@@ -1,4 +1,4 @@
-.container {
+.container-rb {
   min-width: 320px;
   max-width: 375px;
   padding-left: 20px;
@@ -8,7 +8,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .container {
+  .container-rb {
     padding-left: 32px;
     padding-right: 32px;
     max-width: 768px;
@@ -18,7 +18,7 @@
 /* Desktop screen */
 
 @media only screen and (min-width: 1280px) {
-  .container {
+  .container-rb {
     max-width: 1280px;
   }
 }
@@ -28,6 +28,7 @@
 .reviewsblock-section {
   padding-top: 80px;
   padding-bottom: 80px;
+  background-color: #11131F;
 }
 
 @media only screen and (min-width: 768px) {
@@ -63,7 +64,7 @@
 
 .reviewsblock-title {
   color: #F6F5EF;
-  font-family: DM Sans;
+  font-family: "DM Sans";
   font-size: 24px;
   font-weight: 500;
   line-height: 120%;
@@ -99,7 +100,7 @@
 
 .reviewsblock-text {
   color: #F6F5EF;
-  font-family: DM Sans;
+  font-family: "DM Sans";
   font-size: 14px;
   line-height: 140%;
   letter-spacing: -0.28px;
@@ -121,11 +122,18 @@
 
 .reviewsblock-container-customers {}
 
-.reviewsblock-customers-list {}
+.reviewsblock-customers-list {
+  display: flex;
+}
+
+@media only screen and (min-width: 768px) {
+  .reviewsblock-customers-list {
+    gap: 16px
+  }
+}
 
 @media only screen and (min-width: 1280px) {
   .reviewsblock-customers-list {
-    display: flex;
     gap: 32px
   }
 }
@@ -137,9 +145,23 @@
   text-align: center;
 }
 
+@media only screen and (max-width: 767px) {
+
+  .reviewsblock-customers-item:nth-child(2),
+  .reviewsblock-customers-item:nth-child(3) {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .reviewsblock-customers-item {
     padding: 24px 32px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .reviewsblock-customers-item:nth-child(3) {
+    display: none;
   }
 }
 
@@ -169,7 +191,7 @@
 
 .reviewsblock-customers-name {
   color: #F6F5EF;
-  font-family: DM Sans;
+  font-family: "DM Sans";
   font-size: 16px;
   font-weight: 500;
   line-height: 110%;
@@ -186,7 +208,7 @@
 
 .reviewsblock-customers-text {
   color: rgba(246, 245, 239, 0.50);
-  font-family: DM Sans;
+  font-family: "DM Sans";
   font-size: 12px;
   line-height: 140%;
   letter-spacing: -0.24px;
