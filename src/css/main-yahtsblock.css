@@ -45,47 +45,47 @@
         }
         @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
             .arrow{
-                background-image: url(../img/main-yahtsblock/PC/arrowx2.jpg);
+                background-image: url(./img/main-yahtsblock/PC/arrowx2.jpg);
             }
         }
         @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
             .benetti{
-                background-image: url(../img/main-yahtsblock/PC/BENETTI_OASISx2.jpg);
+                background-image: url(./img/main-yahtsblock/PC/BENETTI_OASISx2.jpg);
             }
         }
         @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
             .anna{
-                background-image: url(../img/main-yahtsblock/PC/annax2.jpg);
+                background-image: url(./img/main-yahtsblock/PC/annax2.jpg);
             }
         }
         @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
             .ellen{
-                background-image: url(../img/main-yahtsblock/PC/ellenx2.jpg);
+                background-image: url(./img/main-yahtsblock/PC/ellenx2.jpg);
             }
         }
         @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
             .mirage{
-                background-image: url(../img/main-yahtsblock/PC/miragex2.jpg);
+                background-image: url(./img/main-yahtsblock/PC/miragex2.jpg);
             }
         }
         @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
             .king{
-                background-image: url(../img/main-yahtsblock/PC/kingx2.jpg);
+                background-image: url(./img/main-yahtsblock/PC/kingx2.jpg);
             }
         }
         @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
             .salt{
-                background-image: url(../img/main-yahtsblock/PC/saltx2.jpg);
+                background-image: url(./img/main-yahtsblock/PC/saltx2.jpg);
             }
         }
         @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
             .storm{
-                background-image: url(../img/main-yahtsblock/PC/stormx2.jpg);
+                background-image: url(./img/main-yahtsblock/PC/stormx2.jpg);
             }
         }
         @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
             .collu{
-                background-image: url(../img/main-yahtsblock/PC/collux2.jpg);
+                background-image: url(./img/main-yahtsblock/PC/collux2.jpg);
             }
         }
     }   
@@ -216,32 +216,32 @@
     
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         .arrow{
-            background-image: url(../img/main-yahtsblock/Planshet/pl-arrow.jpg), url(../img/main-yahtsblock/Planshet/pl-arrowx2.jpg);
+            background-image: url(./img/main-yahtsblock/Planshet/pl-arrow.jpg), url(./img/main-yahtsblock/Planshet/pl-arrowx2.jpg);
         }
     }
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         .benetti{
-            background-image: url(../img/main-yahtsblock/Planshet/pl-benetti.jpg), url(../img/main-yahtsblock/Planshet/pl-benettix2.jpg);
+            background-image: url(./img/main-yahtsblock/Planshet/pl-benetti.jpg), url(./img/main-yahtsblock/Planshet/pl-benettix2.jpg);
         }
     }
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         .ellen{
-            background-image: url(../img/main-yahtsblock/Planshet/pl-elen.jpg), url(../img/main-yahtsblock/Planshet/pl-elenx2.jpg);
+            background-image: url(./img/main-yahtsblock/Planshet/pl-elen.jpg), url(./img/main-yahtsblock/Planshet/pl-elenx2.jpg);
         }
     }
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         .mirage{
-            background-image: url(../img/main-yahtsblock/Planshet/pl-mirage.jpg), url(../img/main-yahtsblock/Planshet/pl-miragex2.jpg);
+            background-image: url(./img/main-yahtsblock/Planshet/pl-mirage.jpg), url(./img/main-yahtsblock/Planshet/pl-miragex2.jpg);
         }
     }
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         .salt{
-            background-image: url(../img/main-yahtsblock/Planshet/pl-salt.jpg), url(../img/main-yahtsblock/Planshet/pl-saltx2.jpg);
+            background-image: url(./img/main-yahtsblock/Planshet/pl-salt.jpg), url(./img/main-yahtsblock/Planshet/pl-saltx2.jpg);
         }
     }
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         .storm{
-            background-image: url(../img/main-yahtsblock/Planshet/pl-storm.jpg), url(../img/main-yahtsblock/Planshet/pl-stormx2.jpg);
+            background-image: url(./img/main-yahtsblock/Planshet/pl-storm.jpg), url(./img/main-yahtsblock/Planshet/pl-stormx2.jpg);
         }
     }
 }
@@ -296,17 +296,17 @@
     }
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         .arrow{
-            background-image: url(../img/main-yahtsblock/Mobile/mob-arrow.jpg), url(../img/main-yahtsblock/Mobile/mob-arrowx2.jpg);
+            background-image: url(./img/main-yahtsblock/Mobile/mob-arrow.jpg), url(./img/main-yahtsblock/Mobile/mob-arrowx2.jpg);
         }
     }
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         .ellen{
-            background-image: url(../img/main-yahtsblock/Mobile/mob-elen.jpg), url(../img/main-yahtsblock/Mobile/mob-elenx2.jpg);
+            background-image: url(./img/main-yahtsblock/Mobile/mob-elen.jpg), url(./img/main-yahtsblock/Mobile/mob-elenx2.jpg);
         }
     }
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         .salt{
-            background-image: url(../img/main-yahtsblock/Mobile/mob-salt.jpg), url(../img/main-yahtsblock/Mobile/mob-saltx2.jpg);
+            background-image: url(./img/main-yahtsblock/Mobile/mob-salt.jpg), url(./img/main-yahtsblock/Mobile/mob-saltx2.jpg);
         }
     }
 }
