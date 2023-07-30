@@ -1,0 +1,384 @@
+.section-rent{
+    background-color: #11131F;
+    padding-top: 164px;
+    padding-bottom: 164px;
+}
+.title-rent-block{
+   color: #F6F5EF;
+   font-size: 60px;
+   font-weight: 500;
+   width: 282px;
+   line-height: 1.1em;
+   letter-spacing: -2.7px;
+   margin-bottom: 64px;
+   font-family: DM Sans;
+   
+}
+.block-one-rent{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+@media screen and (min-width: 1157px) {
+    .rent-block{
+        gap: 188px;
+    }
+}
+.rent-block{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+   overflow: hidden;
+
+}
+
+/* @media screen and (min-width: 1158px) {
+    .rent-block:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 414px;
+    height: 414px;
+    background-color: #91AFBA;
+    opacity: 60%;
+    border-radius: 50%;
+    filter: blur(100px);
+    left: 985px;
+ 
+}
+}
+
+
+
+@media (min-width:768px) and (max-width: 1157px) {
+    .rent-block:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 413px;
+        height: 413px;
+        background-color: #91AFBA;
+        opacity: 60%;
+        border-radius: 50%;
+        filter: blur(100px);
+        left: 538px;
+    
+    }
+}
+@media (min-width:320px) and (max-width: 767px) {
+    .rent-block:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 413px;
+        height: 413px;
+        background-color: #91AFBA;
+        opacity: 60%;
+        border-radius: 50%;
+        filter: blur(100px);
+        left: 154px;
+        top: 30%;
+    
+    }
+} */
+
+
+.label-text{
+    display: flex;
+    flex-direction: column;
+    color: #F6F5EF;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: -0.045em;
+
+}
+
+.input-yacht{
+    margin-bottom:28px;
+    background-color: transparent;
+    width: 443px;
+    border: none;
+    border-bottom: 1px solid #F6F5EF;
+   color: #ffffff;
+}
+
+
+.input-yacht:focus{
+    outline: none;
+}
+
+.send-yacht{
+   
+    border: 1px solid #F6F5EF;
+    border-radius: 60px;
+    padding: 14px 28px;
+    gap:16px;
+    background-color: transparent;
+    cursor: pointer;
+    color: #F6F5EF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.045em;
+
+
+
+}
+
+@media screen and (min-width: 1157px){
+    .send-yacht{
+        margin-top: 64px;
+    }
+}
+
+
+.textarea-yacht{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #F6F5EF;
+    color: #ffffff;
+    resize: none;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: -0.045em;
+
+  
+}
+
+.textarea-yacht:focus{
+    outline: none;
+}
+
+.svg-form{
+    padding-left: 16px;
+}
+
+.modal-rent{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+.is-hidden{
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+}
+@media screen and (min-width: 768px) {
+    .modal-rent-window{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(1);
+       
+        width: 570px;
+        max-height: 522px;
+        border-radius: 40px;
+        background: #1F212D;;
+      
+        padding: 72px 24px 24px 24px;
+    }
+
+}
+@media (min-width: 320px) and (max-width: 768px) {
+    .modal-rent-window{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(1);
+       
+        width: 335px;
+        max-height: 396px;
+        border-radius: 40px;
+        background: #1F212D;;
+      
+        padding: 72px 24px 24px 24px;
+    }
+    
+}
+.modal-rent-window:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 265px;
+    height: 265px;
+    background-color: #91AFBA;
+    opacity: 0.6;
+    border-radius: 50%;
+    filter: blur(100px);
+    top: 10%;
+    left: 28%;
+    z-index: 0;
+}
+
+.modal-close-button{
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0; 
+   cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .modal-yacht{
+        margin-left: 116px;
+        margin-right: 116px;
+        margin-bottom: auto;
+        margin-top: auto;
+        z-index: 4444;
+        width: 338px;
+         height:198px;
+    }
+    .modal-rent-content{
+        margin-left: 64px;
+        margin-right: 64px;
+        margin-bottom: 64px;
+    }
+    .modal-title-rent{
+ 
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 38px;
+        letter-spacing: -1.44px;
+        font-family: DM Sans;
+        
+        color: #F6F5EF;
+    }
+    .modal-text-rent{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        letter-spacing: -0.32px;
+        width:442px;
+        height: 88px;
+        color: #F6F5EF;
+        font-family: DM Sans;
+    }
+    
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .modal-yacht{
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-bottom: auto;
+        margin-top: auto;
+        z-index: 4444;
+        width: 287px;
+        height:149px;
+    }
+    .modal-rent-content{
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-bottom: 24px;
+    }
+    .modal-title-rent{
+ 
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 28.8px;
+        letter-spacing: -1.08px;
+        font-family: DM Sans;
+        
+        color: #F6F5EF;
+    }
+    .modal-text-rent{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19.6px;
+        letter-spacing: -0.28px;
+        width:287px;
+        height: 100px;
+        color: #F6F5EF;
+        font-family: DM Sans;
+    }
+    
+}
+
+@media screen and (min-width: 1157px) {
+    .yacht-rent-img{
+        width: 282px;
+        height: 191px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1157px) {
+    .rent-block{
+        margin-left: 32px;
+        margin-right: auto;
+        gap: 69px;
+    overflow: hidden;
+    }
+    .title-rent-block{
+        font-size: 60px;
+        font-weight: 500;
+        line-height: 66px;
+        letter-spacing: -4.5%;
+        width: 287px;
+        height: 132px;
+        font-family: DM Sans;
+    }
+    .send-yacht{
+        margin-top:32px;
+      
+    
+    }
+    .yacht-rent-img{
+        width: 271px;
+        height: 187px;
+    }
+ 
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .title-rent-block{
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: -0.045em;
+        font-family: DM Sans;
+
+    }
+    .yacht-rent-img{
+        width: 259px;
+        height: 187px;
+    }
+    .rent-block{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 20px;
+    }
+    .send-yacht{
+        margin-top: 24px;
+        }
+}
+
+.block-two-rent{
+    margin-top: 40px;
+    position: relative;
+}
