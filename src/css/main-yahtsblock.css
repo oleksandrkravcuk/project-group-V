@@ -191,8 +191,7 @@
         }
     .myslide {
         display: none;
-        flex-wrap: nowrap;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         gap: 16px;
         }
@@ -205,23 +204,17 @@
     .yahts-block{
         background: #11131F;
     }
-    .yaht-butt-mob {
-            padding: 14px 16px;
-            border-radius: 60px;
-            border: 1px solid var(--white, #F6F5EF);
+    .yaht-but-lef{
+        padding: 14px 16px;
+        border-radius: 60px;
+        border: 1px solid var(--white, #F6F5EF);
     }
-    .yaht-butt-next {
-            padding: 14px 16px;
-            border-radius: 60px;
-            border: 1px solid var(--white, #F6F5EF);
+    .yaht-but-righ {
+        padding: 14px 16px;
+        border-radius: 60px;
+        border: 1px solid var(--white, #F6F5EF);
     }
-    .butt-mobile{
-        display: flex;
-        gap: 32px;
-        align-items: center;
-        justify-content: center;
-        margin-top: 32px;
-    }
+    
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         .arrow{
             background-image: url(../img/main-yahtsblock/Planshet/pl-arrow.jpg), url(../img/main-yahtsblock/Planshet/pl-arrowx2.jpg);
@@ -253,6 +246,15 @@
         }
     }
 }
+@media screen and (min-width: 768px){
+    .yahts-butt-mobile{
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 32px;
+    }
+}
 /* Mobile */
 
 @media screen and (max-width: 767px){
@@ -275,15 +277,20 @@
     .yaht-butt{
         display: none;
     }
-    .butt-mobile{
-        margin-top: 24px;
+    .yahts-butt-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
     }
-    .yaht-butt-mob {
+    .yaht-but-lef{
+        margin-top: 24px;
         padding: 14px 16px;
         border-radius: 60px;
         border: 1px solid var(--white, #F6F5EF);
     }
-    .yaht-butt-next {
+    .yaht-but-righ {
+        margin-top: 24px;
         padding: 14px 16px;
         border-radius: 60px;
         border: 1px solid var(--white, #F6F5EF);
