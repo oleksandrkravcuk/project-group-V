@@ -1,5 +1,6 @@
 /* GENERAL */
 :root {
+    --bg-color:#11131F;
     --footer-darkblue-color: #11131F;
     --footer-blue-color: #1F212D;
     --footer-marine-color: #93ABAE;
@@ -15,28 +16,540 @@ ol {
     list-style-type: none;
     text-decoration: none;
 }
+
+/* ДЛЯ МОБІЛЬНИХ */
+.footer-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media screen and (min-width: 375px) {
+    .footer-container {
+        max-width: 375px;
+    }
+}
+
+/* ДЛЯ ПЛАНШЕТІВ */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .footer-container {
+        max-width: 1280px;
+        padding-left: 32px;
+        padding-right: 32px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    }
+
+    /* ДЛЯ ДЕСКТОПІВ */
+    @media screen and (min-width: 1280px) {
+    .footer-container {
+        max-width: 1280px;
+    }
+    }
+
+
+
+    /* ---------MOBILE--------- */
+
+    @media screen and (max-width: 767px) {
+        .footer-container::before {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 335px;
+            height: 1px;
+            border: 1px;
+            background-color: rgba(246, 245, 239, 0.2);
+        }
+
+        .footer-container::after {
+            content: '';
+            position: absolute;
+            left: 3.5%;
+            bottom: -98%;
+
+            width: 420px;
+            height: 420px;
+            transform: rotate(-45.408deg);
+            flex-shrink: 0;
+
+            border-radius: 420px;
+            opacity: 0.6000000238418579;
+            background: var(--footer-marine-color);
+            filter: blur(100px);
+        }
+
+        .footer-container {
+            background-color: var(--bg-color);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .footer-logo-mask{
+            position: relative;
+            width: 16px;
+            min-height: 18px;
+            background: url(../img/footer/yacht-logo/sail-logo-icon-inversion.png);
+            background-size: cover;
+            margin-right: 8px;
+    
+        }
+        .footer-logo-mask::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: var(--linear-green, linear-gradient(107deg, #BEC7C2 0%, #A1B5BA 100%));
+            background-position: center;
+            mix-blend-mode: darken;
+            background-size: 32px;
+        }
+        
+            .footer-logo-div {
+                padding: 40px 0 40px 0;
+                display: flex;
+                align-items: center
+            ;
+            }
+        
+            .footer-nav-tabs {
+                display: inline-block;
+                
+            }
+        
+            .footer-nav-tabs-text {
+                color: var(--footer-sand-color);
+                font-family: DM Sans;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 118%;
+                letter-spacing: 0.42px;
+                text-transform: uppercase;
+                display: block;
+                text-align:left;
+            }
+        
+            .footer-nav-tabs-text:not(:last-child) {
+                margin-bottom: 14px;
+            }
+        
+            .footer-logo-text {
+                color: var(--footer-sand-color);
+                text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                font-family: DM Sans;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 118%;
+                letter-spacing: 0.54px;
+                text-transform: uppercase;
+            }
+            .footer-social-text {
+                color: var(--white, #F6F5EF);
+                font-family: DM Sans;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 110%;
+                text-transform: uppercase;
+                margin-bottom: 16px;
+                
+            }
+        
+            .footer-social {
+                margin-top: 40px;
+                display: block;
+            }
+        
+        
+            .footer-social-list {
+                display: flex;
+            }
+        
+            .footer-social-list-item:not(:last-child) {
+                margin-right: 14px;
+            }
+        
+            .footer-logo-item-link-social {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 6px;
+                border: 1px solid rgba(246, 245, 239, 0.50);
+                width: 32px;
+                height: 32px;
+            }
+        
+            .footer-logo-item-link-social:hover,
+            .footer-logo-item-link-social:focus {
+                border: 1px solid var(--footer-marine-color);
+            }
+        
+            .footer-social-icon {
+                fill: var(--footer-sand-color);
+            }
+        
+            .footer-social-icon:hover {
+                fill: var(--footer-marine-color);
+            }
+        
+            .footer-nav-tabs-text:hover {
+                color: var(--footer-marine-color);
+            }
+        
+            .footer-facebook-icon {
+                padding: 8.22px 12.11px 8.23px 11.81px;
+            }
+        
+            .footer-instagram-icon {
+                padding: 8.53px 8.53px 8.53px 8.53px;
+            }
+        
+            .footer-youtube-icon {
+                padding: 7.2px 7.2px 7.2px 7.2px;
+            }
+        
+            .footer-privacy-policy-text:not(:last-child) {
+                margin-right: 14px;
+            }
+        
+            .footer-privacy-policy-list {
+        
+                color: rgba(246, 245, 239, 0.50);
+                text-align: center;
+                text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                font-family: DM Sans;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 118%;
+                /* 16.52px */
+                letter-spacing: 0.42px;
+                text-align: center;
+               
+            }
+            
+            .footer-privacy-policy-text{
+                display: inline;
+            }
+            .footer-privacy-policy{
+                margin-top: 40px;
+            }
+
+    }
+
+
+    /* -------TABLET-------- */
+
+    @media screen and (min-width: 768px) and (max-width: 1280px) {
+        .footer-container::before {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 704px;
+            height: 1px;
+            border: 1px;
+            background-color: rgba(246, 245, 239, 0.2);
+            }
+
+        .footer-container::after {
+            content: '';
+            /* display: block; */
+            position: absolute;
+            left: 36%;
+            bottom: -138%;
+
+            width: 419px;
+            height: 419px;
+            transform: rotate(-45.565deg);
+            flex-shrink: 0;
+
+            border-radius: 419px;
+            opacity: 0.6000000238418579;
+            background: var(--footer-marine-color);
+            filter: blur(100px);
+        }
+        
+        .footer-container {
+            background-color: var(--bg-color);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .footer-logo-mask {
+            position: relative;
+            width: 20px;
+            min-height: 23px;
+            background: url(../img/footer/yacht-logo/sail-logo-icon-inversion.png);
+            background-size: cover;
+            margin-right: 8px;
+        
+            }
+        
+        .footer-logo-mask::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: var(--linear-green, linear-gradient(107deg, #BEC7C2 0%, #A1B5BA 100%));
+            background-position: center;
+            mix-blend-mode: darken;
+            background-size: 32px;
+        }
+
+    .footer-div {
+        background-color: var(--bg-color);
+        display: flex;
+        padding: 0 32px 16px 32px;
+        position: relative;
+        }
+
+        .footer-logo-div {
+        display: flex;
+        padding: 64px 0 198px 0;
+        }
+
+        .footer-nav-tabs {
+            /* display: flex; */
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+            padding-top: 64px;
+        }
+
+        .footer-nav-tabs-text {
+            color: var(--footer-sand-color);
+            font-family: DM Sans;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 118%;
+            letter-spacing: 0.42px;
+            text-transform: uppercase;
+            display: block;
+            text-align: center;
+        }
+
+        .footer-nav-tabs-text:not(:last-child) {
+            margin-bottom: 24px;
+        }
+
+        .footer-logo-text {
+            color: var(--footer-sand-color);
+            text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            font-family: DM Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 118%;
+            letter-spacing: 0.54px;
+            text-transform: uppercase;
+        }
+
+        .footer-nav {
+            display: flex;
+        }
+
+        .footer-social-text {
+            color: var(--white, #F6F5EF);
+            font-family: DM Sans;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 110%;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+        }
+
+        .footer-social {
+            position: absolute;
+            left: 100%;
+            transform: translate(-100%);
+            padding-right: 32px;
+            padding-top: 64px;
+            width: 152px;
+
+        }
+
+        .footer-logo-item-link {
+            width: 32px;
+            height: 32px;
+        }
+
+        .footer-social-list {
+            display: flex;
+        }
+
+        .footer-social-list {
+            justify-content: space-between;
+        }
+
+        .footer-logo-item-link-social {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 6px;
+            border: 1px solid rgba(246, 245, 239, 0.50);
+            width: 40px;
+            height: 40px;
+        }
+
+        .footer-logo-item-link-social:hover,
+        .footer-logo-item-link-social:focus {
+            border: 1px solid var(--footer-marine-color);
+        }
+
+        .footer-social-icon {
+            fill: var(--footer-sand-color);
+        }
+
+        .footer-social-icon:hover {
+            fill: var(--footer-marine-color);
+        }
+
+        .footer-nav-tabs-text:hover {
+            color: var(--footer-marine-color);
+        }
+
+        .footer-facebook-icon {
+            padding: 10.27px 15.14px 10.28px 14.76px;
+        }
+
+        .footer-instagram-icon {
+            padding: 10.66px 10.66px 10.66px 10.66px;
+        }
+
+        .footer-youtube-icon {
+            padding: 9px 9px 9px 9px;
+        }
+
+        .footer-privacy-policy-text:not(:last-child) {
+            margin-right: 32px;
+        }
+
+        .footer-privacy-policy-list {
+            display: flex;
+            position: absolute;
+            bottom: 0;
+            padding-bottom: 16px;
+            left: 50%;
+            transform: translate(-50%);
+
+            color: rgba(246, 245, 239, 0.50);
+            text-align: center;
+            text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            font-family: DM Sans;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 118%;
+            /* 16.52px */
+            letter-spacing: 0.42px;
+        }
+
+
+
+}
+
+
+/* -------DESKTOP------- */
+
+@media screen and (min-width: 1280px) {
+    .footer-container::before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 1216px;
+        height: 1px;
+        border: 1px;
+        background-color: rgba(246, 245, 239, 0.2);
+    }
+    .footer-container::after{
+        content: '';
+        /* display: block; */
+        position: absolute;
+        left: 256px;
+        bottom: -371px;
+
+        width: 415px;
+        height: 415px;
+        transform: rotate(-45.044deg);
+        flex-shrink: 0;
+
+        border-radius: 415px;
+        opacity: 0.6000000238418579;
+        background: var(--footer-marine-color);
+        filter: blur(100px);
+    }
+    .footer-nav::after {
+        content: '';
+        position: absolute;
+        right: 1px;
+        bottom: 1px;
+
+        width: 317px;
+        height: 317px;
+        transform: rotate(-45.044deg);
+        flex-shrink: 0;
+
+        border-radius: 317px;
+        opacity: 0.30000001192092896;
+        background: var(--footer-marine-color);
+        filter: blur(100px);
+
+        right: 233px;
+        bottom: -298px;
+}
+
+
+    .footer-container {
+        background-color: var(--bg-color);
+        position: relative;
+        overflow: hidden;
+    }
+    .footer-logo-mask {
+        position: relative;
+        width: 20px;
+        min-height: 23px;
+        background: url(../img/footer/yacht-logo/sail-logo-icon-inversion.png);
+        background-size: cover;
+        margin-right: 8px;
+
+        }
+    
+        .footer-logo-mask::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: var(--linear-green, linear-gradient(107deg, #BEC7C2 0%, #A1B5BA 100%));
+        background-position: center;
+        mix-blend-mode: darken;
+        background-size: 32px;
+        }
+
 .footer-div {
-    background-color: var(--footer-darkblue-color);
+    background-color: var(--bg-color);
     display: flex;
     padding: 0 32px 16px 32px;
     position: relative;
-    /* box-shadow: 0px -10px 0px 0px rgba(246, 245, 239, 0.2); */
+  
     
 }
 .footer-logo-div{
     display: flex;
     padding: 64px 0 198px 0;
-}
-.footer-logo-item-link {
-    /* margin-right: 8px; */
-}
-
-.icon-footer-vector{
-    width: 1216px;
-    /* position: absolute;
-    left: 50%;
-    transform: translate(-50%); */
-    
 }
 
 .footer-nav-tabs{
@@ -138,24 +651,7 @@ ol {
 .footer-youtube-icon{
     padding: 9px 9px 9px 9px;
 }
-.footer-privacy-policy{
-    
-    /* color: rgba(246, 245, 239, 0.50);
-    text-align: center;
-    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    font-family: DM Sans;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 118%;
-    letter-spacing: 0.42px; */
 
-    /* display: flex;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%); */
-    }
 
 .footer-privacy-policy-text:not(:last-child){
     margin-right: 32px;
@@ -178,6 +674,5 @@ ol {
     line-height: 118%;
     /* 16.52px */
     letter-spacing: 0.42px;
-
 }
-
+}
