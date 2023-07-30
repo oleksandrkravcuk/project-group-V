@@ -44,7 +44,52 @@
         .yaht-butt-next{
             display: none;
         }
-    }
+        @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            .arrow{
+                background-image: url(../img/main-yahtsblock/PC/arrowx2.jpg);
+            }
+        }
+        @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            .benetti{
+                background-image: url(../img/main-yahtsblock/PC/BENETTI_OASISx2.jpg);
+            }
+        }
+        @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            .anna{
+                background-image: url(../img/main-yahtsblock/PC/annax2.jpg);
+            }
+        }
+        @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            .ellen{
+                background-image: url(../img/main-yahtsblock/PC/ellenx2.jpg);
+            }
+        }
+        @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            .mirage{
+                background-image: url(../img/main-yahtsblock/PC/miragex2.jpg);
+            }
+        }
+        @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            .king{
+                background-image: url(../img/main-yahtsblock/PC/kingx2.jpg);
+            }
+        }
+        @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            .salt{
+                background-image: url(../img/main-yahtsblock/PC/saltx2.jpg);
+            }
+        }
+        @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            .storm{
+                background-image: url(../img/main-yahtsblock/PC/stormx2.jpg);
+            }
+        }
+        @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            .collu{
+                background-image: url(../img/main-yahtsblock/PC/collux2.jpg);
+            }
+        }
+    }   
     .yahts-block{
         background: #11131F;
     }
@@ -57,7 +102,7 @@
         margin: 0 auto;
     }
     .yahts-img {
-        margin: 16px;
+        margin: 16px 16px 0 16px;
         display: block;
         background-repeat: no-repeat;
         background-position: center;
@@ -68,7 +113,7 @@
         display: flex;
         align-items: baseline;
         justify-content: space-between;
-        margin: 32px;
+        margin: 32px 32px 0 32px;
         gap: auto;
     }
     .yahts-text {
@@ -90,13 +135,14 @@
     }
     .yahts-column-one{
         list-style: none;
-        flex-wrap: wrap;
-        gap: 6px;
+        padding: 0;
+        margin-left: 32px;
+        opacity: 0.7;
     }
     .yahts-column-two{
         list-style: none;
-        flex-wrap: wrap;
-        gap: 6px;
+        padding: 0;
+        opacity: 0.7;
     }
     .yahts-tabl{
         display: flex;
@@ -110,6 +156,7 @@
         line-height: 118%;
         letter-spacing: 0.42px;
         text-transform: uppercase;
+        margin-bottom: 6px;
     }
     .yahts-tab-two {
         color: var(--white, #F6F5EF);
@@ -118,6 +165,7 @@
         font-weight: 400;
         line-height: 118%;
         letter-spacing: 0.42px;
+        margin-bottom: 6px;
     }
 
 
@@ -125,6 +173,8 @@
 @media screen and (max-width: 1279px){
     .yahts-block{
         width: 768px;
+        align-items: center;
+        justify-content: center;
     }
     .yahts-container{
         width: 704px;
@@ -162,7 +212,6 @@
             border-radius: 60px;
             border: 1px solid var(--white, #F6F5EF);
     }
-
     .yaht-butt-next {
             padding: 14px 16px;
             border-radius: 60px;
@@ -174,6 +223,36 @@
         align-items: center;
         justify-content: center;
         margin-top: 32px;
+    }
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        .arrow{
+            background-image: url(../img/main-yahtsblock/Planshet/pl-arrow.jpg), url(../img/main-yahtsblock/Planshet/pl-arrowx2.jpg);
+        }
+    }
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        .benetti{
+            background-image: url(../img/main-yahtsblock/Planshet/pl-benetti.jpg), url(../img/main-yahtsblock/Planshet/pl-benettix2.jpg);
+        }
+    }
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        .ellen{
+            background-image: url(../img/main-yahtsblock/Planshet/pl-elen.jpg), url(../img/main-yahtsblock/Planshet/pl-elenx2.jpg);
+        }
+    }
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        .mirage{
+            background-image: url(../img/main-yahtsblock/Planshet/pl-mirage.jpg), url(../img/main-yahtsblock/Planshet/pl-miragex2.jpg);
+        }
+    }
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        .salt{
+            background-image: url(../img/main-yahtsblock/Planshet/pl-salt.jpg), url(../img/main-yahtsblock/Planshet/pl-saltx2.jpg);
+        }
+    }
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        .storm{
+            background-image: url(../img/main-yahtsblock/Planshet/pl-storm.jpg), url(../img/main-yahtsblock/Planshet/pl-stormx2.jpg);
+        }
     }
 }
 /* Mobile */
@@ -200,5 +279,30 @@
     }
     .butt-mobile{
         margin-top: 24px;
+    }
+    .yaht-butt-mob {
+        padding: 14px 16px;
+        border-radius: 60px;
+        border: 1px solid var(--white, #F6F5EF);
+    }
+    .yaht-butt-next {
+        padding: 14px 16px;
+        border-radius: 60px;
+        border: 1px solid var(--white, #F6F5EF);
+    }
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        .arrow{
+            background-image: url(../img/main-yahtsblock/Mobile/mob-arrow.jpg), url(../img/main-yahtsblock/Mobile/mob-arrowx2.jpg);
+        }
+    }
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        .ellen{
+            background-image: url(../img/main-yahtsblock/Mobile/mob-elen.jpg), url(../img/main-yahtsblock/Mobile/mob-elenx2.jpg);
+        }
+    }
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        .salt{
+            background-image: url(../img/main-yahtsblock/Mobile/mob-salt.jpg), url(../img/main-yahtsblock/Mobile/mob-saltx2.jpg);
+        }
     }
 }
