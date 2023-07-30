@@ -114,7 +114,6 @@ button {
         max-width: 539px;
         letter-spacing: -0.32px;
         margin-bottom: 32px;
-
     }
 }
 
@@ -145,6 +144,8 @@ button {
     background: transparent;
 }
 
+
+
 .hero-clients {
     margin-left: 24px;
     margin-top: 24px;
@@ -154,7 +155,10 @@ button {
     display: flex;
     flex-direction: row;
     margin-bottom: 13px;
+
 }
+
+
 
 
 .client-one {
@@ -162,6 +166,8 @@ button {
     border-radius: 50%;
     overflow: hidden;
     z-index: 3;
+    width: 48px;
+    height: 48px;
 }
 
 .client-two {
@@ -169,6 +175,8 @@ button {
     border-radius: 50%;
     overflow: hidden;
     z-index: 2;
+    width: 48px;
+    height: 48px;
 }
 
 .client-three {
@@ -176,8 +184,19 @@ button {
     border-radius: 50%;
     overflow: hidden;
     z-index: 1;
+    width: 48px;
+    height: 48px;
 }
 
+@media screen and (min-width: 768px) {
+
+    .client-one,
+    .client-two,
+    .client-three {
+        width: 56px;
+        height: 56px;
+    }
+}
 
 .hero-clients-text {
     position: absolute;
@@ -201,8 +220,8 @@ button {
 
 @media screen and (min-width: 768px) {
     .hero-pics {
-        height: 598px;
-
+        max-width: 462px;
+        max-height: 651px;
     }
 
 }
@@ -215,7 +234,13 @@ button {
     width: 335px;
     height: 427px;
     mix-blend-mode: screen;
+}
 
+@media screen and (min-width: 768px) {
+    .hero-pics::before {
+        width: 462px;
+        height: 598px;
+    }
 }
 
 
@@ -228,6 +253,15 @@ button {
 
 }
 
+@media screen and (min-width: 768px) {
+    .hero-ceo {
+        width: 233px;
+        height: 233px;
+        margin-left: 371px;
+    }
+}
+
+
 
 .hero-yaht {
     display: block;
@@ -237,6 +271,16 @@ button {
 
 }
 
+@media screen and (min-width: 768px) {
+    .hero-yaht {
+        width: 378px;
+        height: 221px;
+        margin-top: 111px;
+    }
+}
+
+
+
 .hero-book-now {
     display: flex;
     align-items: center;
@@ -244,6 +288,13 @@ button {
     margin-top: 233px;
     margin-left: 24px;
 }
+
+@media screen and (min-width: 768px) {
+    .hero-book-now {
+        margin-top: 354px;
+    }
+}
+
 
 .hero-price {
     color: #11131F;
@@ -256,12 +307,26 @@ button {
 
 }
 
-.hero-book-now-text {
+@media screen and (min-width: 768px) {
+    .hero-price {
+        font-size: 60px;
+        letter-spacing: -2.7px;
+    }
 
+}
+
+.hero-book-now-text {
     color: #11131F;
     font-size: 14px;
     font-weight: 400;
     line-height: 140%;
     letter-spacing: -0.63px;
     width: 169px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-book-now-text {
+        font-size: 18px;
+        letter-spacing: -0.81px;
+    }
 }
