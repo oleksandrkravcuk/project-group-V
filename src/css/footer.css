@@ -7,15 +7,6 @@
     --footer-sand-color: #F6F5EF;
     --transition-dur-and-func: cubic-bezier(0.4, 0, 0.2, 1);
 }
-ul,
-ol {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    padding-inline-start: 0;
-    list-style-type: none;
-    text-decoration: none;
-}
 
 /* ДЛЯ МОБІЛЬНИХ */
 .footer-container {
@@ -93,7 +84,7 @@ ol {
             position: relative;
             width: 16px;
             min-height: 18px;
-            background: url(../img/footer/yacht-logo/sail-logo-icon-inversion.png);
+            background: url(./img/footer/yacht-logo/sail-logo-icon-inversion.png);
             background-size: cover;
             margin-right: 8px;
     
@@ -287,7 +278,7 @@ ol {
             position: relative;
             width: 20px;
             min-height: 23px;
-            background: url(../img/footer/yacht-logo/sail-logo-icon-inversion.png);
+            background: url(./img/footer/yacht-logo/sail-logo-icon-inversion.png);
             background-size: cover;
             margin-right: 8px;
         
@@ -520,7 +511,7 @@ ol {
         position: relative;
         width: 20px;
         min-height: 23px;
-        background: url(../img/footer/yacht-logo/sail-logo-icon-inversion.png);
+        background: url(./img/footer/yacht-logo/sail-logo-icon-inversion.png);
         background-size: cover;
         margin-right: 8px;
 
