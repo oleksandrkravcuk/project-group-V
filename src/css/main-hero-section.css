@@ -1,41 +1,12 @@
-body {
-    background-color: #11131F;
-    font-family: DM Sans, sans-serif;
-}
 
 
 img {
     display: block;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 0;
-}
-
-ul,
-ol {
-    list-style: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-}
-
-button {
-    cursor: pointer;
-    border: none;
-}
 
 
-
-.container {
+.hero-container {
     min-width: 320px;
     max-width: 375px;
     margin-left: auto;
@@ -48,7 +19,7 @@ button {
 /* Tablet screen */
 
 @media screen and (min-width: 768px) {
-    .container {
+    .hero-container {
         max-width: 768px;
         padding-left: 32px;
         padding-right: 32px;
@@ -59,7 +30,7 @@ button {
 /* Desctop screen */
 
 @media screen and (min-width: 1280px) {
-    .container {
+    .hero-container {
         max-width: 1280px;
         margin: 0 auto;
 
@@ -213,7 +184,6 @@ button {
     background: url(/images/Rectangle.jpg) no-repeat;
     max-width: 363px;
     max-height: 465px;
-    padding-bottom: 0;
     flex-shrink: 0;
     padding: 38px 14px 0 14px;
 }
@@ -224,7 +194,14 @@ button {
         max-height: 651px;
     }
 
+        .divdivdiv {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline1;
+        }
 }
+
+
 
 
 .hero-pics::before {
