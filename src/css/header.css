@@ -19,6 +19,15 @@
 
 }
 
+.container-logo{
+    position: relative;
+    width: 20px;
+    min-height: 23px;
+    background: url(/src/img/footer/yacht-logo/sail-logo-icon-inversion.png);
+    background-size: cover;
+    margin-right: 8px;
+}
+
 .header-container::after {
     content: "";
     display: block;
