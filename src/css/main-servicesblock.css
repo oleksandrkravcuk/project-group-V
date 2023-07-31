@@ -1,0 +1,275 @@
+  .service-img{
+   position: relative;
+} 
+
+.service-section{
+    width: 100%;
+    background: #11131F;
+    margin: 0 auto;
+    
+}
+
+.service-cont{
+    width: 335px;
+    margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+    .service-cont{
+       width: 704px;
+     }
+   }
+   @media only screen and (min-width: 1280px) {
+     .service-cont {
+       width: 1280px;
+     }
+   }
+.service-list{
+    padding-top: 80px;
+    position: relative;
+}
+@media only screen and (min-width: 768px) {
+   .service-list{
+    
+    
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    gap:64px
+
+  }
+}
+.service-list-element{
+position: relative;
+}
+.service-list-element:not(:last-child){
+    margin-bottom: 24px;
+    
+}
+
+
+
+.service-button{
+    color: var(--dark-blue, #11131F);
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 110%; /* 15.4px */
+letter-spacing: -0.63px;
+display: inline-flex;
+padding: 14px 28px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 60px;
+background: var(--white, #F6F5EF);
+position: absolute;
+top: 268px;
+left: 24px;
+
+}
+@media only screen and (min-width: 768px) {
+   .service-button{
+    top:566px;
+    left: 60px;
+  }
+}
+@media only screen and (min-width: 768px) {
+   .fish-butt{
+    top:323px;
+    left: 368px;
+  }
+}
+@media only screen and (min-width: 768px) {
+    .sunbath-butt{
+        top: 272px;
+        left: 32px;
+  }
+}
+
+
+@media only screen and (min-width: 1280px) {
+    .service-button{
+     top:566px;
+     left: 60px;
+   }
+ }
+ @media only screen and (min-width: 1280px) {
+    .fish-butt{
+     top:348px;
+     left: 32px;
+   }
+ }
+ @media only screen and (min-width: 1280px) {
+     .sunbath-butt{
+         top: 272px;
+         left: 32px;
+   }
+ }
+.service-none{
+
+}
+
+
+@media only screen and (min-width: 768px) {
+   .service-none{
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+    .diving{
+    display: block;
+    background-image: url(./img/servics-block/tablet/tb-diving@1x.jpg);
+    width: 100%;
+    height: 632px;
+    border-radius: 40px;
+    }
+     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        .diving{
+          background-image: url(./src/img/servics-block/tablet/tb-diving@2x.jpg);
+          border-radius: 40px;      
+       }
+     }
+  }
+@media only screen and (min-width: 768px) {
+  .fishing{
+  display: block;
+  background-image: url(./img/servics-block/tablet/fishing@1x.jpg);
+  width: 400px;
+height: 389px;
+padding-left: 336px;
+border-radius: 40px;
+  }
+   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      .fishing{
+        background-image: url(./img/servics-block/tablet/diving@2x.jpg);
+        width: 400px;
+height: 389px;
+border-radius: 40px;
+padding-left: 336px;
+     }
+   }
+}
+
+  @media only screen and (min-width: 768px) {
+    .sunbath{
+    display: block;
+    background-image: url(./src/img/servics-block/dasktop/ds-sunbathing@1x.jpg);
+    border-radius: 40px;    
+}
+     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        .sunbath{
+          background-image: url(./src/img/servics-block/dasktop/ds-sunbathing@2x.jpg);
+          border-radius: 40px;
+       }
+     }
+  }
+
+
+
+
+
+  @media only screen and (min-width: 1280px) {
+    .diving{
+    
+    background-image: url(./src/img/servics-block/dasktop/ds-diving@1x.jpg);
+    width: 712px;
+    height: 632px;
+    border-radius: 40px;
+    }
+     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        .diving{
+          background-image: url(./src/img/servics-block/dasktop/ds-diving@2x.jpg);
+          border-radius: 40px;      
+       }
+     }
+  }
+@media only screen and (min-width: 1280px) {
+  .fishing{
+    background-image: url(./src/img/servics-block/dasktop/ds-fishing@1x.jpg);
+  width: 440px;
+height: 428px;
+
+border-radius: 40px;
+  }
+   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      .fishing{
+        background-image: url(src/img/servics-block/dasktop/ds-fishing@2x.jpg);
+        width: 440px;
+height: 428px;
+border-radius: 40px;
+padding: 0;     }
+   }
+}
+
+  @media only screen and (min-width: 1280px) {
+    .sunbath{
+    display: block;
+    background-image: url(./src/img/servics-block/dasktop/ds-sunbathing@1x.jpg);
+    border-radius: 40px;
+    width: 436px;
+    height: 352px;    
+}
+     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        .sunbath{
+          background-image: url(src/img/servics-block/dasktop/ds-sunbathing@2x.jpg);
+          border-radius: 40px;
+       }
+     }
+  }
+  
+
+
+
+  @media only screen and (max-width: 1279px) {
+    .fishing{
+        display: block;
+        background-image: url(./img/servics-block/tablet/fishing@1x.jpg);
+        width: 400px;
+      height: 389px;
+      padding-left: 336px;
+      border-radius: 40px;
+        }
+         @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            .fishing{
+              background-image: url(./img/servics-block/tablet/diving@2x.jpg);
+              width: 400px;
+      height: 389px;
+      border-radius: 40px;
+      padding-left: 336px;
+           }
+         }
+  }
+
+  /* @media only screen and (max-width: 1279px) {
+    .diving{
+        display: block;
+        background-image: url(./img/servics-block/tablet/tb-diving@1x.jpg);
+        width: 100%;
+        height: 632px;
+        border-radius: 40px;
+        }
+         @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            .diving{
+              background-image: url(./src/img/servics-block/tablet/tb-diving@2x.jpg);
+              border-radius: 40px;      
+           }
+         }
+  }
+  @media only screen and (max-width: 1279px) {
+    .sunbath{
+        display: block;
+        background-image: url(./src/img/servics-block/dasktop/ds-sunbathing@1x.jpg);
+        border-radius: 40px;    
+    }
+         @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            .sunbath{
+              background-image: url(./src/img/servics-block/dasktop/ds-sunbathing@2x.jpg);
+              border-radius: 40px;
+           }
+         }
+  } */
