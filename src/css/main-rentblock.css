@@ -1,8 +1,10 @@
 .section-rent{
     
-    padding-top: 164px;
-    padding-bottom: 164px;
+    margin-bottom: 164px;
+    display: flex;
+    justify-content: space-around;
 }
+
 .title-rent-block{
    color: #F6F5EF;
    font-size: 60px;
@@ -10,7 +12,7 @@
    width: 282px;
    line-height: 1.1em;
    letter-spacing: -2.7px;
-   margin-bottom: 64px;
+  
    font-family: DM Sans;
    
 }
@@ -23,6 +25,9 @@
 @media screen and (min-width: 1157px) {
     .rent-block{
         gap: 188px;
+    }
+    .title-rent-block{
+        margin-bottom: 64px;
     }
 }
 .rent-block{
@@ -367,8 +372,8 @@
 
 @media (min-width: 768px) and (max-width: 1157px) {
     .rent-block{
-       padding-left: 16px;
-       padding-right: 16px;
+       margin-left: 16px;
+       margin-right: 16px;
         gap: 69px;
     overflow: hidden;
 
@@ -378,10 +383,11 @@
         font-size: 60px;
         font-weight: 500;
         line-height: 66px;
-        letter-spacing: -4.5%;
+        letter-spacing: -2.7px;
         width: 287px;
         height: 132px;
         font-family: DM Sans;
+        margin-bottom: 32px;
     }
     .send-yacht{
         margin-top:32px;
@@ -401,6 +407,7 @@
         line-height: 40px;
         letter-spacing: -0.045em;
         font-family: DM Sans;
+        margin-bottom: 16px;
 
     }
     .yacht-rent-img{
