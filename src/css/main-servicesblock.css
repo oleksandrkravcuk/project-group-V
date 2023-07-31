@@ -39,8 +39,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: baseline;
-    gap:64px
-
+    gap:64px;
   }
 }
 .service-list-element{
