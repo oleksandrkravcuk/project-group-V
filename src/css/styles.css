@@ -28,9 +28,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  --footer-darkblue-color: #11131F;
+  --footer-blue-color: #1F212D;
+  --footer-marine-color: #93ABAE;
+  --footer-sand-color: #F6F5EF;
 }
-@media screen and (min-width: 1280px){
-    body{
+body{
       width: 100%;
       height: 5891px;
       background-image: url(./img/main-yahtsblock/Yacht\ Adventures.jpg);
@@ -38,4 +41,3 @@
       background-position: center;
       background-size: cover;
     }
-  }
