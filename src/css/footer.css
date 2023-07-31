@@ -80,7 +80,7 @@
             position: relative;
             width: 16px;
             min-height: 18px;
-            background: url(./img/footer/yacht-logo/sail-logo-icon-inversion.png;)
+            background: url(/img/footer/yacht-logo/sail-logo-icon-inversion.png;)
             background-scover;
             margin-right: 8px;
     
@@ -273,7 +273,7 @@
             position: relative;
             width: 20px;
             min-height: 23px;
-            background: url(./img/footer/yacht-logo/sail-logo-icon-inversion.png);
+            background: url(/img/footer/yacht-logo/sail-logo-icon-inversion.png);
             background-size: cover;
             margin-right: 8px;
         
@@ -505,7 +505,7 @@
         position: relative;
         width: 20px;
         min-height: 23px;
-        background: url(./img/footer/yacht-logo/sail-logo-icon-inversion.png);
+        background: url(/img/footer/yacht-logo/sail-logo-icon-inversion.png);
         background-size: cover;
         margin-right: 8px;
 
