@@ -38,6 +38,29 @@ img {
 }
 
 
+.hero-section {
+    width: 100%;
+    height: 666px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-section {
+    width: 100%;
+    height: 956px;
+    }
+    
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-section {
+    width: 100%;
+    height: 651px;
+    }
+
+}
+
+
+
 .hero-title {
     color: var(--white, #F6F5EF);
     font-family: DM Sans;
