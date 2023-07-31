@@ -1,7 +1,7 @@
 /*Header*/
 
 .header {
-    background: var(--dark-blue, #11131F);
+    background: transparent;
 }
 
 
@@ -84,7 +84,7 @@
 }
 
 .logo-header-text {
-    color: var(--white, #F6F5EF);
+    color:  #F6F5EF;
     font-family: DM Sans;
 
 
@@ -108,7 +108,7 @@
 }
 
 .nav-link {
-    color: var(--white, #F6F5EF);
+    color:  #F6F5EF;
     font-weight: 700;
     line-height: 1.7;
     letter-spacing: 0.42px;
@@ -123,8 +123,8 @@
 
 
 .menu-toggle-icon {
-    stroke: var(--white);
-    background-color: var(--dark-blue);
+    stroke: #F6F5EF;
+    background-color: #11131F;
 }
 
 .menu-toggle {
@@ -157,7 +157,7 @@
     width: 100%;
     height: 100%;
     padding: 24px 20px;
-    background-color: var(--dark-blue);
+    background-color: #11131F;
 
     z-index: 999;
     transform: translateX(100%);
@@ -231,7 +231,7 @@
 }
 
 .mobile-link {
-    color: var(--white, #F6F5EF);
+    color:  #F6F5EF;
     font-family: DM Sans;
     font-weight: 700;
     line-height: 1.7;
