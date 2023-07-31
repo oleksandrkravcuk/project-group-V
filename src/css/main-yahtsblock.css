@@ -30,7 +30,7 @@
             align-items: flex-start;
             gap: 10px;
             border-radius: 60px;
-            border: 1px solid var(--white, #F6F5EF);
+            border: 1px solid var(--footer-sand-color);
         }
         .yahts-container{
             width: 1216px;
@@ -97,7 +97,7 @@
         height: 508px;
         border-radius: 24px;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        background-color: #1F212D;
+        background-color: var(--footer-blue-color);
         margin: 0 auto;
     }
     .yahts-img {
@@ -116,7 +116,7 @@
         gap: auto;
     }
     .yahts-text {
-        color: var(--white, #F6F5EF);
+        color: var(--footer-sand-color);
         font-family: 'DM Sans', sans-serif;
         font-size: 16px;
         font-weight: 700;
@@ -124,7 +124,7 @@
         text-transform: uppercase;
     }
     .yahts-write {
-        color: var(--white, #F6F5EF);
+        color: var(--footer-sand-color);
         font-family: 'DM Sans', sans-serif;
         font-size: 12px;
         font-weight: 400;
@@ -148,7 +148,7 @@
         gap: 32px;
     }
     .yahts-tab-one {
-        color: var(--white, #F6F5EF);
+        color: var(--footer-sand-color);
         font-family: 'DM Sans', sans-serif;
         font-size: 14px;
         font-weight: 400;
@@ -158,7 +158,7 @@
         margin-bottom: 6px;
     }
     .yahts-tab-two {
-        color: var(--white, #F6F5EF);
+        color: var(--footer-sand-color);
         font-family: 'DM Sans', sans-serif;
         font-size: 14px;
         font-weight: 400;
@@ -172,7 +172,7 @@
 @media screen and (max-width: 1279px){
     .yahts-block{
         width: 100%;
-        background: #11131F;
+        background: var(--footer-blue-color);
     }
     .yahts-container{
         width: 704px;
@@ -203,42 +203,42 @@
     .yaht-but-lef{
         padding: 14px 16px;
         border-radius: 60px;
-        border: 1px solid var(--white, #F6F5EF);
+        border: 1px solid var(--footer-sand-color);
     }
     .yaht-but-righ {
         padding: 14px 16px;
         border-radius: 60px;
-        border: 1px solid var(--white, #F6F5EF);
+        border: 1px solid var(--footer-sand-color);
     }
     
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         .arrow{
-            background-image: url(./img/main-yahtsblock/Planshet/pl-arrow.jpg), url(./img/main-yahtsblock/Planshet/pl-arrowx2.jpg);
+            background-image: url(../img/main-yahtsblock/Planshet/pl-arrow.jpg), url(../img/main-yahtsblock/Planshet/pl-arrowx2.jpg);
         }
     }
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         .benetti{
-            background-image: url(./img/main-yahtsblock/Planshet/pl-benetti.jpg), url(./img/main-yahtsblock/Planshet/pl-benettix2.jpg);
+            background-image: url(../img/main-yahtsblock/Planshet/pl-benetti.jpg), url(../img/main-yahtsblock/Planshet/pl-benettix2.jpg);
         }
     }
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         .ellen{
-            background-image: url(./img/main-yahtsblock/Planshet/pl-elen.jpg), url(./img/main-yahtsblock/Planshet/pl-elenx2.jpg);
+            background-image: url(../img/main-yahtsblock/Planshet/pl-elen.jpg), url(../img/main-yahtsblock/Planshet/pl-elenx2.jpg);
         }
     }
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         .mirage{
-            background-image: url(./img/main-yahtsblock/Planshet/pl-mirage.jpg), url(./img/main-yahtsblock/Planshet/pl-miragex2.jpg);
+            background-image: url(../img/main-yahtsblock/Planshet/pl-mirage.jpg), url(../img/main-yahtsblock/Planshet/pl-miragex2.jpg);
         }
     }
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         .salt{
-            background-image: url(./img/main-yahtsblock/Planshet/pl-salt.jpg), url(./img/main-yahtsblock/Planshet/pl-saltx2.jpg);
+            background-image: url(../img/main-yahtsblock/Planshet/pl-salt.jpg), url(../img/main-yahtsblock/Planshet/pl-saltx2.jpg);
         }
     }
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         .storm{
-            background-image: url(./img/main-yahtsblock/Planshet/pl-storm.jpg), url(./img/main-yahtsblock/Planshet/pl-stormx2.jpg);
+            background-image: url(../img/main-yahtsblock/Planshet/pl-storm.jpg), url(../img/main-yahtsblock/Planshet/pl-stormx2.jpg);
         }
     }
 }
@@ -256,7 +256,7 @@
 @media screen and (max-width: 767px){
     .yahts-block{
         width: 100%;
-        background: #11131F;
+        background: var(--footer-blue-color);
         margin: 0 auto;
     }
     .yahts-container{
@@ -283,27 +283,27 @@
         margin-top: 24px;
         padding: 14px 16px;
         border-radius: 60px;
-        border: 1px solid var(--white, #F6F5EF);
+        border: 1px solid var(--footer-sand-color);
     }
     .yaht-but-righ {
         margin-top: 24px;
         padding: 14px 16px;
         border-radius: 60px;
-        border: 1px solid var(--white, #F6F5EF);
+        border: 1px solid var(--footer-sand-color);
     }
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         .arrow{
-            background-image: url(./img/main-yahtsblock/Mobile/mob-arrow.jpg), url(./img/main-yahtsblock/Mobile/mob-arrowx2.jpg);
+            background-image: url(../img/main-yahtsblock/Mobile/mob-arrow.jpg), url(../img/main-yahtsblock/Mobile/mob-arrowx2.jpg);
         }
     }
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         .ellen{
-            background-image: url(./img/main-yahtsblock/Mobile/mob-elen.jpg), url(./img/main-yahtsblock/Mobile/mob-elenx2.jpg);
+            background-image: url(../img/main-yahtsblock/Mobile/mob-elen.jpg), url(../img/main-yahtsblock/Mobile/mob-elenx2.jpg);
         }
     }
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         .salt{
-            background-image: url(./img/main-yahtsblock/Mobile/mob-salt.jpg), url(./img/main-yahtsblock/Mobile/mob-saltx2.jpg);
+            background-image: url(../img/main-yahtsblock/Mobile/mob-salt.jpg), url(../img/main-yahtsblock/Mobile/mob-saltx2.jpg);
         }
     }
 }
