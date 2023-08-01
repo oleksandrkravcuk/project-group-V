@@ -9,8 +9,6 @@
     width: 335px;
     margin: 0 auto;
     padding: 24px 20px;
-
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,7 +32,7 @@
     margin-right: 8px;
 }
 
-.header-container::after {
+  .header-container::after {
     content: "";
     display: block;
     position: absolute;
@@ -43,7 +41,7 @@
     height: 1px;
     border: 1px;
     background-color: rgba(246, 245, 239, 0.20);
-}
+}  
 
 
 
@@ -57,12 +55,12 @@
 
 }
 
-@media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 768px) {
     .header-container::after {
         width: 704px;
         
     }
-}
+}    
 
 
 
@@ -73,11 +71,11 @@
     }
 }
 
-@media only screen and (min-width: 1280px) {
+  @media only screen and (min-width: 1280px) {
     .header-container::after {
         width: 1216px;
     }
-}
+}  
 
 
 
@@ -88,13 +86,13 @@
     justify-content: space-between;
 }
 
-/* @media only screen and (min-width: 768px) {
+ @media only screen and (min-width: 768px) {
 
     .nav {
         width: 100%;
     }
 
-} */
+} 
 
 
 .logo-header-link {
@@ -114,6 +112,10 @@
     text-transform: uppercase;
 }
 
+.nav-list {
+    display: none;
+}
+
 @media only screen and (min-width: 768px) {
     .nav-list {
         display: flex;
@@ -121,11 +123,9 @@
     }
 }
 
-@media only screen and (max-width: 767px) {
-    .nav-list {
-        display: none;
-    }
-}
+
+   
+
 
 .nav-link {
     color:  #F6F5EF;
@@ -188,7 +188,7 @@
 
 
 
-.menu-container::after {
+   .menu-container::after {
     content: "";
     display: block;
     position: absolute;
@@ -197,9 +197,9 @@
     height: 1px;
     border: 1px;
     background-color: rgba(246, 245, 239, 0.2);
-}
+}   
 
-.menu-container:before {
+.menu-container::before {
     content: "";
     display: block;
     position: absolute;
@@ -214,7 +214,7 @@
 
 }
 
-.mobile-menu::after {
+ .mobile-menu::after {
     content: "";
     display: block;
     position: absolute;
@@ -227,7 +227,7 @@
     bottom: -100px;
     right: -50px;
 
-}
+} 
 
 .mobile-container{
     display: flex;
