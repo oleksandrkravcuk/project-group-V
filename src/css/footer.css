@@ -48,7 +48,8 @@
             content: "";
             display: block;
             position: absolute;
-            width: 335px;
+            /* width: 335px; */
+            width: 95%;
             height: 1px;
             border: 1px;
             background-color: rgba(246, 245, 239, 0.2);
@@ -240,7 +241,8 @@
             content: "";
             display: block;
             position: absolute;
-            width: 704px;
+            /* width: 704px; */
+            width: 95%;
             height: 1px;
             border: 1px;
             background-color: rgba(246, 245, 239, 0.2);
@@ -454,7 +456,8 @@
         content: "";
         display: block;
         position: absolute;
-        width: 1216px;
+        /* width: 1216px; */
+        width: 95%;
         height: 1px;
         border: 1px;
         background-color: rgba(246, 245, 239, 0.2);
