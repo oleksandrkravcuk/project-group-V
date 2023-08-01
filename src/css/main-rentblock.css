@@ -2,7 +2,6 @@
     margin-bottom: 164px;
     display: flex;
     justify-content: space-around;
-   
 }
 
 .title-rent-block{
@@ -135,11 +134,9 @@
        font-size: 16px;
     }
 }
-
 .input-yacht:focus{
     outline: none;
 }
-
 .input-yacht:-webkit-autofill,
 .input-yacht:-webkit-autofill:hover,
 .input-yacht:-webkit-autofill:focus,
@@ -150,6 +147,8 @@
     font-family: DM Sans;
     font-weight: 400;
 }
+
+
 
 .send-yacht{
    
@@ -252,9 +251,11 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+       
         width: 70%;
         max-width: 335px;
         max-height: 90vh;
+       
         border-radius: 40px;
         background: #1F212D;
         padding: 48px 16px 16px 16px;
@@ -339,17 +340,14 @@
 
 @media (min-width: 320px) and (max-width: 768px) {
     .modal-yacht{
-        margin-left: 24px;
-        margin-right: auto;
-        margin-bottom: auto;
-        margin-top: auto;
+        
         z-index: 4444;
         width: 287px;
         height:149px;
     }
     .modal-rent-content{
         margin-left: 24px;
-        margin-right: auto;
+        margin-right: 24px;
         margin-bottom: 24px;
     }
     .modal-title-rent{
@@ -368,10 +366,11 @@
         font-weight: 400;
         line-height: 19.6px;
         letter-spacing: -0.28px;
-        width:287px;
+        max-width:287px;
         height: 100px;
         color: #F6F5EF;
         font-family: DM Sans;
+        padding-bottom: 24px;
     }
     
 }
