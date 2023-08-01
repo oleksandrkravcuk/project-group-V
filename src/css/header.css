@@ -88,13 +88,13 @@
     justify-content: space-between;
 }
 
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
 
     .nav {
         width: 100%;
     }
 
-}
+} */
 
 
 .logo-header-link {
