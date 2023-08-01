@@ -34,10 +34,41 @@
   --footer-sand-color: #F6F5EF;
 }
 body{
+    margin: 0;
+    width: 100%;
+    height: 5891px;
+    background-image: url(/img/main-yahtsblock/yachtadventures.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  @media screen and (min-width: 1280px){
+    body{
       width: 100%;
       height: 5891px;
-      background-image: url(../img/main-yahtsblock/yachtadventures.jpg);
+      background-image: url(/img/main-yahtsblock/yachtadventures.jpg);
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
     }
+  }
+  @media screen and (max-width: 1279px){
+    body{
+      width: 100%;
+      height: 6866px;
+      background-image: url(/img/main-yahtsblock/Tablet.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+  }
+}
+@media screen and (max-width: 767px){
+  body{
+    width: 100%;
+    height: 6012px;
+    background-image: url(/img/main-yahtsblock/Mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+}

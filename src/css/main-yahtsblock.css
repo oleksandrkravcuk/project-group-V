@@ -36,6 +36,7 @@
             width: 1216px;
             height: 508px;
             margin: 0 auto;
+            margin-bottom: 164px;
         }
         .yaht-butt-mob{
             display: none;
@@ -172,12 +173,12 @@
 @media screen and (max-width: 1279px){
     .yahts-block{
         width: 100%;
-        background: #11131F;
     }
     .yahts-container{
         width: 704px;
         height: 576px;
         margin: 0 auto;
+        margin-bottom: 80px;
     }
     .plansheter{
         display: none;
@@ -256,12 +257,13 @@
 @media screen and (max-width: 767px){
     .yahts-block{
         width: 100%;
-        background: #11131F;
         margin: 0 auto;
     }
     .yahts-container{
         width: 335px;
+        height: 529px;
         margin: 0 auto;
+        margin-bottom: 80px;
     }
     
     .mobilsik{
