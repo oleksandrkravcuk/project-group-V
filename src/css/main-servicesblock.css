@@ -6,8 +6,28 @@
     width: 100%;
     background: #11131F;
     margin: 0 auto;
+    margin-bottom: 80px;
     
 }
+.service-section{
+    width: 100%;
+    background: #11131F;
+    margin: 0 auto;
+    height: 1053px;
+}
+@media only screen and (min-width: 768px) {
+    .service-section {
+      height: 1437px;
+      margin-bottom:100px ;
+    }
+  }
+  @media only screen and (min-width: 1280px) {
+      .service-section {
+          height: 1048px;
+          margin-bottom: 164px;
+        }
+  }
+
 
 .service-cont{
     width: 335px;
@@ -24,7 +44,7 @@
      }
    }
 .service-list{
-    padding-top: 80px;
+    
     position: relative;
 }
 @media only screen and (min-width: 768px) {
@@ -223,7 +243,7 @@ padding: 0;     }
   
 
 
-
+/* 
   @media only screen and (max-width: 1279px) {
     .fishing{
         display: block;
@@ -242,7 +262,7 @@ padding: 0;     }
       padding-left: 336px;
            }
          }
-  }
+  } */
 
   /* @media only screen and (max-width: 1279px) {
     .diving{
