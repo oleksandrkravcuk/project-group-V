@@ -2,18 +2,21 @@ img {
   display: block;
   border-radius: 24px;
 }
-.main-aboutblock {
+.main-aboutsection {
   width: 100%;
+  height: 1630px;
 }
 /*Mobile*/
+@media screen and (max-width: 767px) {
+  .aboutblock-container {
+    width: 295px;
+    margin: 0 auto;
+    height: 1630px;
+  }
+}
 .aboutblock-container {
-  min-width: 320px;
-  max-width: 375px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  height: 1630px;
+  width: 295px;
+  margin: 0 auto;
 }
 .adventures-aboutblock {
   font-family: DM Sans;
@@ -58,14 +61,14 @@ img {
   /* columns: 2 auto; */
 }
 
-.big-img-container::before {
+/* .big-img-container::before {
   content: "";
   position: absolute;
   background: url(/img/main-aboutblock/img-yaht-1mob@1x) cover/ cover no-repeat;
   width: 335px;
   height: 524px;
   mix-blend-mode: screen;
-}
+} */
 /* .big-img-container::before {
   content: '';
   position: absolute;
@@ -102,11 +105,10 @@ flex-shrink: 0;
 /*Tablet*/
 @media screen and (min-width: 768px) {
   .aboutblock-container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
+    max-width: 704px;
+    margin: 0 auto;
   }
-  .main-aboutblock {
+  .main-aboutsection {
     width: 100%;
     height: 1755px;
   }
@@ -121,7 +123,7 @@ flex-shrink: 0;
     margin-bottom: 32px;
   }
 
-  .big-img-container::before {
+  /* .big-img-container::before {
     content: "";
     position: absolute;
     background: url(/img/main-aboutblock/img-yaht-1tab@1x) cover/ cover
@@ -129,7 +131,7 @@ flex-shrink: 0;
     width: 704px;
     height: 631px;
     mix-blend-mode: screen;
-  }
+  } */
   /* .big-img-container::before {
   content: '';
   position: absolute;
@@ -154,10 +156,10 @@ flex-shrink: 0;
 /*Desktop*/
 @media screen and (min-width: 1280px) {
   .aboutblock-container {
-    max-width: 1280px;
+    width: 1216px;
     margin: 0 auto;
   }
-  .main-aboutblock {
+  .main-aboutsection {
     width: 100%;
     height: 1385px;
   }
@@ -177,14 +179,12 @@ flex-shrink: 0;
     align-items: flex-start;
     gap: 32px;
   } */
-
   .h-description {
     font-size: 32px;
     letter-spacing: -1.44px;
     max-width: 514px;
-    margin-right: 302px;
   }
-  .big-img-container::before {
+  /* .big-img-container::before {
     content: "";
     position: absolute;
     background: url(/img/main-aboutblock/img-yaht-1@1x) cover/ cover no-repeat;
@@ -192,7 +192,7 @@ flex-shrink: 0;
     height: 473px;
     flex-shrink: 0;
     mix-blend-mode: screen;
-  }
+  } */
   /* .big-img-container::before {
   content: '';
   position: absolute;
