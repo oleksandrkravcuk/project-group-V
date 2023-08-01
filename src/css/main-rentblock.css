@@ -2,6 +2,7 @@
     margin-bottom: 164px;
     display: flex;
     justify-content: space-around;
+   
 }
 
 .title-rent-block{
@@ -107,6 +108,7 @@
         border: none;
         border-bottom: 1px solid #F6F5EF;
        color: #ffffff;
+       font-size: 16px;
     }
 }
 
@@ -118,6 +120,7 @@
         border: none;
         border-bottom: 1px solid #F6F5EF;
        color: #ffffff;
+       font-size: 16px;
     }
 }
 
@@ -129,11 +132,23 @@
         border: none;
         border-bottom: 1px solid #F6F5EF;
        color: #ffffff;
+       font-size: 16px;
     }
 }
 
 .input-yacht:focus{
     outline: none;
+}
+
+.input-yacht:-webkit-autofill,
+.input-yacht:-webkit-autofill:hover,
+.input-yacht:-webkit-autofill:focus,
+.input-yacht:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0px 1000px #11131F inset ;
+    -webkit-text-fill-color: #ffffff ;
+    font-size: 16px;
+    font-family: DM Sans;
+    font-weight: 400;
 }
 
 .send-yacht{
@@ -231,19 +246,19 @@
     }
 
 }
-@media (min-width: 320px) and (max-width: 768px) {
-    .modal-rent-window{
-        position: absolute;
+@media screen and (max-width: 767px) {
+    .modal-rent-window {
+        position: fixed;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%) scale(1);
-       
-        width: 335px;
-        max-height: 396px;
+        transform: translate(-50%, -50%);
+        width: 70%;
+        max-width: 335px;
+        max-height: 90vh;
         border-radius: 40px;
-        background: #1F212D;;
-      
-        padding: 72px 24px 24px 24px;
+        background: #1F212D;
+        padding: 48px 16px 16px 16px;
+        box-sizing: border-box;
     }
     .modal-rent-window:before {
         content: "";
@@ -325,7 +340,7 @@
 @media (min-width: 320px) and (max-width: 768px) {
     .modal-yacht{
         margin-left: 24px;
-        margin-right: 24px;
+        margin-right: auto;
         margin-bottom: auto;
         margin-top: auto;
         z-index: 4444;
@@ -334,7 +349,7 @@
     }
     .modal-rent-content{
         margin-left: 24px;
-        margin-right: 24px;
+        margin-right: auto;
         margin-bottom: 24px;
     }
     .modal-title-rent{
