@@ -1,22 +1,63 @@
-img {
-  display: block;
-  border-radius: 24px;
-}
-.main-aboutblock {
-  width: 100%;
-}
+
 /*Mobile*/
-.aboutblock-container {
-  min-width: 320px;
-  max-width: 375px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  height: 1630px;
+@media screen and (max-width: 767px)  {
+  .aboutblock-container {
+    width: 295px;
+    margin: 0 auto;
+    height: 1630px;
+  }
+  .main-aboutsection {
+    width: 100%;
+  }
+  .aboutblock-container {
+    width: 295px;
+    margin: 0 auto;
+  }
+  .text-about-container{
+    margin-bottom: 40px;
+  }
+  /* img */
+  img{
+    display: block;
+  }
+  .img-advanchers{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+  }
+  .advantages-list{
+    display: flex;
+    gap: 32px;
+
+  }
+  .item-one{
+    width: 160px;
+    height: 220px;
+    color: var(--white, #F6F5EF);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+
+  }
+  .item-two{
+    width: 161px;
+    height: 180px;
+    color: var(--white, #F6F5EF);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+  }
+  .h-description{
+    margin-bottom: 40px;
+  }
 }
+
 .adventures-aboutblock {
-  font-family: DM Sans;
+  font-family: 'DM Sans', sans-serif;
   font-size: 24px;
   font-style: italic;
   font-weight: 500;
@@ -32,40 +73,35 @@ img {
 }
 .h-description {
   color: var(--white, #f6f5ef);
-  font-family: DM Sans;
+  font-family:'DM Sans', sans-serif;
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
   line-height: 120%;
-  letter-spacing: -1.08px;
-  max-width: 335px;
-  margin-bottom: 40px;
-  padding-left: 0;
+  width: 335px;
+  
+  
 }
 
 .description-item {
   color: var(--white, #f6f5ef);
-  font-family: DM Sans;
+  font-family: 'DM Sans', sans-serif;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 140%;
-  letter-spacing: -0.28px;
   display: inline-flex;
   align-items: flex-start;
   gap: 14px;
-  margin-bottom: 40px;
   /* columns: 2 auto; */
 }
 
-.big-img-container::before {
+/* .big-img-container::before {
   content: "";
   position: absolute;
   background: url(/img/main-aboutblock/img-yaht-1mob@1x) cover/ cover no-repeat;
   width: 335px;
   height: 524px;
   mix-blend-mode: screen;
-}
+} */
 /* .big-img-container::before {
   content: '';
   position: absolute;
@@ -77,14 +113,10 @@ flex-shrink: 0;
 } */
 .aboutblock-title {
   color: var(--white, #f6f5ef);
-  font-family: DM Sans;
+  font-family: 'DM Sans', sans-serif;
   font-size: 36px;
-  font-style: normal;
   font-weight: 500;
   line-height: 110%;
-  letter-spacing: -1.62px;
-  max-width: 310px;
-  margin-bottom: 40px;
 }
 .aboutblock-button {
   border-radius: 60px;
@@ -100,15 +132,58 @@ flex-shrink: 0;
   background: transparent;
 }
 /*Tablet*/
-@media screen and (min-width: 768px) {
-  .aboutblock-container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
+/* @media screen and (min-width: 768px) {
+  .text-about-container{
+    display: block;
   }
-  .main-aboutblock {
+  .advantages-list{
+    display: flex;
+    gap: 32px;
+    margin-bottom: 30px;
+    margin-left: 336px;
+  }
+  .item-one{
+    width: 183px;
+    height: 242px;
+
+  }
+  .item-two{
+    width: 185px;
+    height: 198px;
+  }
+  .aboutblock-container {
+    width: 704px;
+    margin: 0 auto;
+  }
+  .main-aboutsection {
     width: 100%;
     height: 1755px;
+  }
+  /* img */
+  /* .img-advanchers{
+    display: none;
+  }
+  .big-container{
+    width: 704px;
+    height: 631px;
+    margin: 0 auto;
+    background-image: url(../img/main-aboutblock/img-yaht-1tab@1x.jpg);
+  }
+  .standart-container{
+    width: 308px;
+    height: 289px;
+    margin: 0 auto;
+    background-image: url(../img/main-aboutblock/img-yaht-2tab@1x.jpg);
+  }
+  .smal-container{
+    width: 260px;
+    height: 244px;
+    margin: 0 auto;
+    background-image: url(../img/main-aboutblock/img-yaht-3@1x.jpg);
+  }
+  .title-bocks-button{
+    justify-content: center;
+    
   }
   .adventures-aboutblock {
     font-size: 32px;
@@ -117,100 +192,115 @@ flex-shrink: 0;
   .h-description {
     font-size: 32px;
     letter-spacing: -1.44px;
-    max-width: 514px;
+    width: 514px;
     margin-bottom: 32px;
   }
-
-  .big-img-container::before {
-    content: "";
-    position: absolute;
-    background: url(/img/main-aboutblock/img-yaht-1tab@1x) cover/ cover
-      no-repeat;
-    width: 704px;
-    height: 631px;
-    mix-blend-mode: screen;
-  }
-  /* .big-img-container::before {
-  content: '';
-  position: absolute;
-  background: url(./img/main-aboutblock/img-yaht-2tab@1x) cover/ cover no-repeat;
-  width: 308px;
-  height: 289px;
-  mix-blend-mode: screen;
-} */
   .aboutblock-title {
     font-size: 70px;
     letter-spacing: -3.15px;
-    max-width: 641px;
-    margin-bottom: 64px;
+    width: 641px;
+    
   }
 
   .aboutblock-button {
     border: 1px solid #11131f;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    min-width: 153px;
   }
-}
+}  */
 /*Desktop*/
 @media screen and (min-width: 1280px) {
+  .img-advanchers{
+    display: block;
+  }
   .aboutblock-container {
-    max-width: 1280px;
+    width: 1216px;
     margin: 0 auto;
   }
-  .main-aboutblock {
+  .main-aboutsection {
     width: 100%;
     height: 1385px;
   }
+  .text-about-container{
+    display: flex;
+    justify-content: space-between;
+  }
+  .advantages-list{
+    display: flex;
+    gap: 32px;
+    margin-bottom: 30px;
+  } 
+  .item-one{
+    width: 183px;
+    height: 242px;
+    color: var(--white, #F6F5EF);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.6px;
 
+  }
+  .item-two{
+    width: 185px;
+    height: 198px;
+    color: var(--white, #F6F5EF);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.6px;
+  }
   .adventures-aboutblock {
     font-size: 32px;
     letter-spacing: -1.44px;
   }
-  /* .text-adv-container {
-    width: 400px;
-    height: 242px;
-    margin-right: 32px;
+  /* img */
+  .big-img-container{
+      /* background-image: url(../img/main-aboutblock/img-yaht-1@1x.jpg); */
+      display: flex;
+      align-items: center;
+      justify-content: center;
   }
-
-  .advantages-list {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 32px;
-  } */
-
+  .standart-img-container{
+      /* background-image: url(../img/main-aboutblock/img-yaht-2@1x.jpg); */
+      position: absolute;
+      top: 1552px;
+      left: 60px;
+  }
+  .smal-img-container{
+    /* background-image: url(../img/main-aboutblock/img-yaht-3@1x.jpg); */
+    position: relative;
+    left: 409px;
+    top: 16px
+  }
+  .aboutblock-title{
+    display: block;
+    width: 882px;
+    height: 330px;
+    position: relative;
+    z-index: 30;
+    top: -91px;
+    left: 226px;
+    
+  }
+  .title-bocks-button{
+    width: 882px;
+    height: 442px;
+    
+  }
   .h-description {
     font-size: 32px;
     letter-spacing: -1.44px;
-    max-width: 514px;
-    margin-right: 302px;
+    width: 514px;
+    height: 152px;
   }
-  .big-img-container::before {
-    content: "";
-    position: absolute;
-    background: url(/img/main-aboutblock/img-yaht-1@1x) cover/ cover no-repeat;
-    width: 533px;
-    height: 473px;
-    flex-shrink: 0;
-    mix-blend-mode: screen;
-  }
-  /* .big-img-container::before {
-  content: '';
-  position: absolute;
-  background: url(./img/main-aboutblock/img-yaht-2@1x) cover/ cover no-repeat;
- width: 308px;
-height: 289px;
-flex-shrink: 0;
-  mix-blend-mode: screen;
-} */
   .aboutblock-title {
     text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     font-size: 100px;
-    letter-spacing: -4.5px;
-    max-width: 882px;
-    margin-bottom: 64px;
   }
   .aboutblock-button {
     border: 1px solid var(--white, #f6f5ef);
     color: var(--white, #f6f5ef);
+    margin: 0 auto;
+    margin-left: 226px;
   }
+  
 }
