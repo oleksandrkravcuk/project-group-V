@@ -19,11 +19,16 @@
 
 }
 
+.wrapper-logo{
+    display: flex;
+    align-items: center;
+}
+
 .container-logo{
     position: relative;
-    width: 20px;
-    min-height: 23px;
-    background: url(/src/img/footer/yacht-logo/sail-logo-icon-inversion.png);
+    width: 16px;
+    min-height: 18px;
+    background: url(/img/footer/yacht-logo/sail-logo-icon-inversion.png);
     background-size: cover;
     margin-right: 8px;
 }
@@ -55,6 +60,8 @@
         width: 704px;
     }
 }
+
+
 
 @media only screen and (min-width: 1280px) {
     .header-container {
@@ -215,6 +222,12 @@
     filter: blur(100px);
     bottom: -100px;
     right: -50px;
+
+}
+
+.mobile-container{
+    display: flex;
+    align-items: center;
 
 }
 
