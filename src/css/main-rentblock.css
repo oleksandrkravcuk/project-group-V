@@ -107,6 +107,7 @@
         border: none;
         border-bottom: 1px solid #F6F5EF;
        color: #ffffff;
+       font-size: 16px;
     }
 }
 
@@ -118,6 +119,7 @@
         border: none;
         border-bottom: 1px solid #F6F5EF;
        color: #ffffff;
+       font-size: 16px;
     }
 }
 
@@ -129,11 +131,23 @@
         border: none;
         border-bottom: 1px solid #F6F5EF;
        color: #ffffff;
+       font-size: 16px;
     }
 }
 
 .input-yacht:focus{
     outline: none;
+}
+
+.input-yacht:-webkit-autofill,
+.input-yacht:-webkit-autofill:hover,
+.input-yacht:-webkit-autofill:focus,
+.input-yacht:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0px 1000px #11131F inset ;
+    -webkit-text-fill-color: #ffffff ;
+    font-size: 16px;
+    font-family: DM Sans;
+    font-weight: 400;
 }
 
 .send-yacht{
