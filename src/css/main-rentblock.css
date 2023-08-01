@@ -339,7 +339,7 @@
 
 @media (min-width: 320px) and (max-width: 768px) {
     .modal-yacht{
-        margin-left: auto;
+        margin-left: 24px;
         margin-right: auto;
         margin-bottom: auto;
         margin-top: auto;
