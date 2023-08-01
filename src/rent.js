@@ -1,14 +1,25 @@
 (() => {
     const refs = {
-      openModalBtn: document.querySelector("[data-modal-open-rent]"),
-      closeModalBtn: document.querySelector("[data-modal-close-rent]"),
-      modal: document.querySelector("[data-modal-rent]"),
+        form: document.getElementById("yacht-form"),
+        modal: document.querySelector("[data-modal-rent]"),
+        
+        closeModalBtn: document.querySelector("[data-modal-close-rent]"),
     };
-  
-    refs.openModalBtn.addEventListener("click", toggleModal);
+
+    refs.form.addEventListener("submit", handleSubmit);
     refs.closeModalBtn.addEventListener("click", toggleModal);
-  
-    function toggleModal() {
-      refs.modal.classList.toggle("is-hidden");
+
+    function handleSubmit(event) {
+        event.preventDefault();
+
+        const inputs = refs.form.querySelectorAll("input[required], textarea[required]");
+        const isFormValid = Array.from(inputs).every(input => input.value.trim() !== '');
+        if (isFormValid) {
+            toggleModal();
+        }
     }
-  })();
+
+    function toggleModal() {
+        refs.modal.classList.toggle("is-hidden");
+    }
+})();

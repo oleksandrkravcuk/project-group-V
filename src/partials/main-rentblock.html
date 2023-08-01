@@ -7,27 +7,27 @@
             
         </div>
     <div class="block-two-rent">
-    <form class="form-yacht">
+    <form class="form-yacht" action="#" method="POST" id="yacht-form">
       <label for="full-name" class="label-text">Full Name</label>
-            <input type="text" id="full-name" class="input-yacht" autocomplete="on"  >
+            <input type="text" id="full-name" class="input-yacht" name = "name" autocomplete="on"  required>
     
             <label for="email" class="label-text">Email</label>
-            <input type="email" id = "email" class="input-yacht" autocomplete="on">
+            <input type="email" id = "email" class="input-yacht" name = "email" autocomplete="on" required>
 
             <label for="phone" class="label-text">Phone number</label>
-            <input type="tel" id="phone" class="input-yacht" autocomplete="on">
+            <input type="tel" id="phone" class="input-yacht" name = "phone" autocomplete="on" required>
         <label class="label-text">Comment
         <textarea class="textarea-yacht" ></textarea>
     </label>
-  
-    </form>
-  
-    <button type="submit" class="send-yacht" data-modal-open-rent>Send
+    <button type="submit" class="send-yacht" >Send
         <svg width="18" height = "8.66" class="svg-form">
             <use href = "./img/icon.svg#arrow_right">
             </use>
         </svg> 
     </button>
+    </form>
+  
+
     </div>
 </div>
 
