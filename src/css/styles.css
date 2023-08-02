@@ -32,6 +32,8 @@
   --footer-blue-color: #1F212D;
   --footer-marine-color: #93ABAE;
   --footer-sand-color: #F6F5EF;
+  --btn-hover-color: #88B3B9;
+  --linear-green: linear-gradient(107deg, #BEC7C2 0%, #A1B5BA 100%);
 }
 body{
     margin: 0;
