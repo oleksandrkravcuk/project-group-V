@@ -101,7 +101,7 @@ left: 24px;
 @media only screen and (min-width: 768px) {
    .sunbath-butt{
        top: 272px;
-       left: 32px;
+       left: 90px;
  }
 }
 
@@ -137,14 +137,14 @@ left: 24px;
 @media only screen and (min-width: 768px) {
    .diving{
    display: block;
-   background-image: url(/img/servics-block/tablet/tb-diving@1x.png);
+   /* background-image: url(/img/servics-block/tablet/tb-diving@1x.png); */
    width: 704px;
    height: 632px;
    border-radius: 40px;
    }
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
        .diving{
-         background-image: url(/img/servics-block/tablet/tb-diving@2x.png);
+         /* background-image: url(/img/servics-block/tablet/tb-diving@2x.png); */
          border-radius: 40px;      
       }
     }
@@ -152,8 +152,8 @@ left: 24px;
 @media only screen and (min-width: 768px) {
  .fishing{
  display: block;
- background-image: url(/img/servics-block/tablet/tb-fishing@1x.png);
- width: 400px;
+ /* background-image: url(/img/servics-block/tablet/tb-fishing@1x.png); */
+ max-width: 400px;
 height: 389px;
 padding-left: 336px;
 border-radius: 40px;
@@ -161,12 +161,12 @@ border-radius: 40px;
  }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
      .fishing{
-       background-image: url(/img/servics-block/tablet/tb-fishing@2x.png);
-       width: 400px;
+       /* background-image: url(/img/servics-block/tablet/tb-fishing@2x.png); */
+       max-width: 400px;
 height: 389px;
 background: no-repeat;
 border-radius: 40px;
-padding-left: 336px;
+padding-left: 316px;
     }
   }
 }
@@ -174,19 +174,23 @@ padding-left: 336px;
  @media only screen and (min-width: 768px) {
    .sunbath{
    display: block;
-   background-image: url(/img/servics-block/tablet/tb-sunbathing@1x.png);
+   /* background-image: url(/img/servics-block/tablet/tb-sunbathing@1x.png); */
    border-radius: 40px;    
    width: 380px;
    height: 352px;
+   position: relative;
+    left: 60px;
 }
+}
+   
+
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
        .sunbath{
-         background-image: url(/img/servics-block/tablet/tb-sunbathing@2x.png);
+         /* background-image: url(/img/servics-block/tablet/tb-sunbathing@2x.png); */
          border-radius: 40px;
       }
     }
- }
-
+  
 
 
 
@@ -194,21 +198,21 @@ padding-left: 336px;
  @media only screen and (min-width: 1280px) {
    .diving{
    
-   background-image: url(/img/servics-block/dasktop/ds-diving@1x.png);
+   /* background-image: url(/img/servics-block/dasktop/ds-diving@1x.png); */
    width: 712px;
    height: 632px;
    border-radius: 40px;
    }
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
        .diving{
-         background-image: url(/img/servics-block/dasktop/ds-diving@2x.png);
+         /* background-image: url(/img/servics-block/dasktop/ds-diving@2x.png); */
          border-radius: 40px;      
       }
     }
  }
 @media only screen and (min-width: 1280px) {
  .fishing{
-   background-image: url(/img/servics-block/dasktop/ds-fishing@1x.png);
+   /* background-image: url(/img/servics-block/dasktop/ds-fishing@1x.png); */
  width: 440px;
 height: 428px;
 padding: 0;
@@ -216,7 +220,7 @@ border-radius: 40px;
  }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
      .fishing{
-       background-image: url(/img/servics-block/dasktop/ds-fishing@2x.png);
+       /* background-image: url(/img/servics-block/dasktop/ds-fishing@2x.png); */
        width: 440px;
 height: 428px;
 border-radius: 40px;
@@ -227,16 +231,19 @@ padding: 0;     }
  @media only screen and (min-width: 1280px) {
    .sunbath{
    display: block;
-   background-image: url(/img/servics-block/dasktop/ds-sunbathing@1x.png);
+   /* background-image: url(/img/servics-block/dasktop/ds-sunbathing@1x.png); */
    border-radius: 40px;
    width: 436px;
    height: 352px;    
 }
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
        .sunbath{
-         background-image: url(/img/servics-block/dasktop/ds-sunbathing@2x.png);
+         /* background-image: url(/img/servics-block/dasktop/ds-sunbathing@2x.png); */
          border-radius: 40px;
       }
     }
  }
+ 
+
+ 
  
