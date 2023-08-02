@@ -147,13 +147,7 @@
     background-color: #11131F;
 }
 
-.menu-toggle {
-    position: absolute;
-    top: 22px;
-    right: 24px;
-    background-color: transparent;
-    border: none;
-}
+
 
 @media (min-width: 768px) {
     .menu-toggle {
@@ -166,7 +160,7 @@
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-.menu-container {
+ .menu-container {
     position: relative;
     overflow: hidden;
     display: flex;
@@ -184,7 +178,20 @@
     transform: translateX(100%);
     transition: transform 250ms ease-in-out;
 
-}
+} 
+
+.menu-toggle {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    background-color: transparent;
+    border: none;
+    
+    
+} 
+
+
+
 
 
 
@@ -229,11 +236,13 @@
 
 } 
 
-.mobile-container{
+ .mobile-container{
     display: flex;
     align-items: center;
+    
+    
 
-}
+} 
 
 .logo-mobile-link {
     display: flex;
@@ -264,4 +273,13 @@
     line-height: 1.7;
     letter-spacing: 0.42px;
     text-transform: uppercase;
+}
+
+.menu-toggle-close{
+    position: absolute;
+    top: 24px;
+    right: 50px;
+    background-color: transparent;
+    border: none;
+
 }
