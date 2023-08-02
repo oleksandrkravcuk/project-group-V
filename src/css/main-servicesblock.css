@@ -121,7 +121,7 @@ left: 24px;
 @media only screen and (min-width: 1280px) {
     .sunbath-butt{
         top: 272px;
-        left: 32px;
+        left: 90px;
   }
 }
 .service-none{
@@ -213,7 +213,7 @@ padding-left: 316px;
 @media only screen and (min-width: 1280px) {
  .fishing{
    /* background-image: url(/img/servics-block/dasktop/ds-fishing@1x.png); */
- width: 440px;
+ max-width: 440px;
 height: 428px;
 padding: 0;
 border-radius: 40px;
@@ -243,7 +243,5 @@ padding: 0;     }
       }
     }
  }
- 
-
  
  
