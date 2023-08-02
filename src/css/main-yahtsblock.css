@@ -24,6 +24,21 @@
         cursor: pointer;
     }
     @media screen and (min-width: 1280px) {
+        
+        .desctop-img-yahts{
+            position: fixed;
+            z-index: 0;
+
+
+        }
+        .tablet-img-yahts{
+            display: none;
+        }
+        .mobile-img-yahts{
+            display: none;
+        }
+
+
         .btn-style {
             height: 68px;
             width: 68px;
@@ -67,6 +82,9 @@
             border: 1px solid var(--white, #F6F5EF);
         }
         .yahts-container{
+            position: relative;
+            z-index: 100;
+            top: -110px;
             width: 1216px;
             height: 1114px;
             margin: 0 auto;
@@ -204,7 +222,17 @@
 
 
 /* Planshet */
-@media screen and (max-width: 1279px){
+@media screen and (min-width: 768px) and (max-width: 1279px){
+    .desctop-img-yahts{
+        display: none;
+    }
+    .tablet-img-yahts{
+        position: fixed;
+        z-index: 0;
+    }
+    .mobile-img-yahts{
+        display: none;
+    }
     .btn-style {
         height: 68px;
         width: 68px;
@@ -242,6 +270,8 @@
         width: 100%;
     }
     .yahts-container{
+        position: relative;
+        z-index: 100;
         width: 704px;
         height: 1019px;
         margin: 0 auto;
@@ -309,8 +339,6 @@
             background-image: url(./img/main-yahtsblock/Planshet/pl-storm.jpg), url(./img/main-yahtsblock/Planshet/pl-stormx2.jpg);
         }
     }
-}
-@media screen and (min-width: 768px){
     .yahts-butt-mobile{
         display: flex;
         gap: 16px;
@@ -319,9 +347,20 @@
         margin-top: 32px;
     }
 }
+
 /* Mobile */
 
-@media screen and (max-width: 767px){
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .desctop-img-yahts{
+        display: none;
+    }
+    .tablet-img-yahts{
+        display: none;
+    }
+    .mobile-img-yahts{
+        position: fixed;
+        z-index: 0;
+    }
     .btn-style {
         height: 44px;
         width: 44px;
@@ -360,9 +399,14 @@
     }
     .yahts-block{
         width: 100%;
-        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
     .yahts-container{
+        position: relative;
+        z-index: 100;
+        top: -130px;
         width: 335px;
         height: 812px;
         margin-bottom: 80px;
