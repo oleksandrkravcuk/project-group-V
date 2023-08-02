@@ -166,11 +166,13 @@
 
 .tablet-img-yaht {}
 
-.tablet-container-img-two {}
+.tablet-container-img-two {
+  margin-bottom: 83px;
+}
 
 .tablet-container-img-three {
   position: relative;
-  margin-bottom: 200px;
+  top: 200px;
 }
 
 .mobile-containert {
