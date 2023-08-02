@@ -146,13 +146,23 @@
 
 .img-holder {}
 
-.decktop-containert {}
+.decktop-containert {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 32px;
+  position: relative;
+}
 
 .desctop-container-img-one {}
 
 .desctop-img-yaht {}
 
-.desctop-container-img-two {}
+.desctop-container-img-two {
+  position: absolute;
+  top: 253px;
+}
 
 .desctop-container-img-three {}
 
@@ -179,7 +189,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .mobile-one {}
@@ -188,7 +198,9 @@
 
 .mobile-two {}
 
-.mobile-three {}
+.mobile-three {
+  margin-left: auto;
+}
 
 /* Mobile */
 @media only screen and (max-width: 767px) {
