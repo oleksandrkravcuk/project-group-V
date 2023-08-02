@@ -19,27 +19,24 @@
 
 @media only screen and (min-width: 1280px) {
   .container-rb {
-    max-width: 1280px;
+    max-width: 1216px;
   }
 }
 
 /* ReviewsBlockSection */
 
 .reviewsblock-section {
-  padding-top: 80px;
   padding-bottom: 80px;
 }
 
 @media only screen and (min-width: 768px) {
   .reviewsblock-section {
-    padding-top: 100px;
     padding-bottom: 100px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .reviewsblock-section {
-    padding-top: 164px;
     padding-bottom: 164px;
   }
 }
@@ -95,6 +92,7 @@
 
 .reviewsblock-title-span {
   font-style: italic;
+  color: #bec7c2;
 }
 
 .reviewsblock-text {
