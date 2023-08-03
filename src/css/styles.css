@@ -45,7 +45,7 @@ body{
   }
   @media screen and (min-width: 1280px){
     body{
-      background-image: url(../img/main-yahtsblock/YachtAdventures.png);
+      background-image: url(/img/main-yahtsblock/YachtAdventures.png);
     }
   }
   @media screen and (max-width: 1279px){
