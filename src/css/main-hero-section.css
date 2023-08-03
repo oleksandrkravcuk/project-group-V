@@ -77,7 +77,7 @@ img {
 @media screen and (min-width: 768px) {
     .hero-title {
         font-size: 60px;
-        max-width: 698px;
+        max-width: 698px; 
         margin-bottom: 16px;
         letter-spacing: -2.7px;
     }
@@ -87,10 +87,11 @@ img {
 @media screen and (min-width: 1280px) {}
 
 .hero-accent-text {
-    background: var(--linear-green);
+    color: #A1B5BA;
+    /* background: var(--linear-green);
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 }
 
 @media screen and (min-width: 768px) {
@@ -114,7 +115,8 @@ img {
     font-weight: 400;
     line-height: 1.4;
     letter-spacing: -0.28px;
-    max-width: 332px;
+    max-width: 284px;
+    /* max-width: 332px; */
     margin-bottom: 24px;
 }
 
@@ -136,7 +138,7 @@ img {
         font-weight: 500;
         line-height: 1.1;
         letter-spacing: -2.7px;
-        /* width: 554px; */
+        width: 554px;
     }
 
     .hero-text {
@@ -162,6 +164,8 @@ img {
 
 .hero-button-one:hover {
     background-color: var(--btn-hover-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -187,6 +191,8 @@ img {
 .hero-button-two:hover {
     color: var(--btn-hover-color);
     border-color: var(--btn-hover-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -293,16 +299,17 @@ img {
 
 
 .hero-pics {
-    background: url(/img/hero/rectangl.png) no-repeat;
-    max-width: 363px;
+    /* background: url(/img/hero/rectangl.png) no-repeat;  */
+    /* max-width: 363px; */
     max-height: 465px;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
+    width: 320px;
 
 }
 
 @media screen and (min-width: 768px) {
     .hero-pics {
-        background: url(/img/hero/rectangle-tabl-desc.png) no-repeat;
+        /* background: url(/img/hero/rectangle-tabl-desc.png) no-repeat; */
         max-width: 462px;
         max-height: 651px;
     }
@@ -310,7 +317,7 @@ img {
 
 @media screen and (min-width: 1280px) {
     .hero-pics {
-        padding-right: 218px;
+        padding-right: 120px;
         margin-left: 0;
     }
 }
@@ -320,9 +327,11 @@ img {
     content: '';
     position: absolute;
     background: url(/img/hero/hero-bg-mobile@1x.jpg) lightgray 50% / cover no-repeat;
-    width: 335px;
+    width: 280px;
     height: 427px;
     mix-blend-mode: screen;
+    border-radius: 18px;
+
 }
 
 @media screen and (min-width: 768px) {
@@ -345,7 +354,8 @@ img {
     position: absolute;
     border-radius: 24px;
     margin-top: -50px;
-    margin-left: 215px;
+    /* margin-left: 215px; */
+    margin-left: 156px;
 
 
 }
@@ -371,7 +381,7 @@ img {
     display: block;
     position: absolute;
     margin-top: 52px;
-    margin-left: 24px;
+    margin-left: -4px;
 
 }
 
@@ -390,7 +400,8 @@ img {
     align-items: center;
     position: absolute;
     margin-top: 233px;
-    margin-left: 24px;
+    /* margin-left: 24px; */
+    margin-left: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -463,4 +474,60 @@ img {
     .hero-pics {
         margin-right: 218px;
     }
+}
+
+
+
+.hero-white-one {
+    width: 279px;
+    height: 279px;
+    transform: rotate(-44.916deg);
+    flex-shrink: 0;
+    border-radius: 279px;
+    opacity: 0.8999999761581421;
+    background: #939CAC;
+    filter: blur(100px);
+    position: relative;
+    z-index: -100;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-white-one {
+        width: 414px;
+        height: 414px;
+        border-radius: 414px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+
+.hero-white-two {
+    width: 414px;
+    height: 414px;
+    transform: rotate(-44.094deg);
+    flex-shrink: 0;
+    border-radius: 414px;
+    opacity: 0.6000000238418579;
+    background: #91AFBA;
+    filter: blur(100px);
+    position: relative;
+        z-index: -100;
+        margin: 0 auto;
+}
+
+.hero-white-three {
+        width: 316.907px;
+        height: 316.908px;
+        transform: rotate(-45.074deg);
+        flex-shrink: 0;
+        border-radius: 316.908px;
+        opacity: 0.30000001192092896;
+        background: #A6A9B2;
+        filter: blur(100px);
+        position: relative;
+            z-index: -100;
+            margin: 0 auto;
+}
 }
