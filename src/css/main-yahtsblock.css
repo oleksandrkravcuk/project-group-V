@@ -24,10 +24,54 @@
         cursor: pointer;
     }
     @media screen and (min-width: 1280px) {
+        .yahts-blemish{
+            width: 414px;
+            height: 414px;
+            position: absolute;
+            z-index: 50;
+            left: 320px;
+            top: 1940px;
+            transform: rotate(-45.074deg);
+            flex-shrink: 0;
+            border-radius: 414px;
+            opacity: 0.6;
+            background: #91AFBA;
+            filter: blur(100px);
+            margin: 0 auto;
+        }
+        .yahts-blemish-two{
+            position: absolute;
+            z-index: 50;
+            left: 770px;
+            top: 1900px;
+            width: 316px;
+            height: 316px;
+            transform: rotate(-45.074deg);
+            flex-shrink: 0;
+            border-radius: 316px;
+            opacity: 0.4;
+            background: #A6A9B2;
+            filter: blur(100px);
+            margin: 0 auto;
+        }
+        /* .yahts-con-shade{
+            width: 260px;
+            height: 124px;
+            position: absolute;
+            z-index: 1;
+            left: 1200px;
+            top: 350px;
+            background-color: #11131F;
+            opacity: 1;
+            border-bottom-left-radius: 24px;
+            border-bottom-right-radius: 24px;
+            margin: 0 auto;
+        } */
+
         
         .desctop-img-yahts{
             position: fixed;
-            z-index: 0;
+            z-index: -20;
 
 
         }
@@ -73,6 +117,10 @@
             letter-spacing: -0.81px;
             background-color: transparent;
         }
+        .yahts-send-buuton:hover, .yahts-send-buuton:focus{
+            border: 1px solid var(--white, #54f190);
+            color: var(--white, #54f190);
+        }
         .yaht-butt{
             display: flex;
             padding: 14px 16px;
@@ -84,11 +132,12 @@
         .yahts-container{
             position: relative;
             z-index: 100;
-            top: -110px;
+            opacity: 1;
+            top: -100px;
             width: 1216px;
             height: 1114px;
             margin: 0 auto;
-            margin-bottom: 164px;
+            margin-bottom: 64px;
         }
         .yaht-butt-mob{
             display: none;
@@ -223,6 +272,49 @@
 
 /* Planshet */
 @media screen and (min-width: 768px) and (max-width: 1279px){
+    .yahts-blemish{
+        width: 414px;
+        height: 414px;
+        position: relative;
+        z-index: 50;
+        left: 70px;
+        top: -220px;
+        transform: rotate(-45.074deg);
+        flex-shrink: 0;
+        border-radius: 414px;
+        opacity: 0.5;
+        background: #91AFBA;
+        filter: blur(100px);
+        margin: 0 auto;
+    }
+    .yahts-blemish-two{
+        position: relative;
+        z-index: 50;
+        left: 400px;
+        top: -500px;
+        width: 316px;
+        height: 316px;
+        transform: rotate(-45.074deg);
+        flex-shrink: 0;
+        border-radius: 316px;
+        opacity: 0.4;
+        background: #A6A9B2;
+        filter: blur(100px);
+        margin: 0 auto;
+    }
+    .yahts-con-shade{
+        width: 260px;
+        height: 124px;
+        position: relative;
+        z-index: 1;
+        left: 86px;
+        top: -730px;
+        background-color: #11131F;
+        opacity: 0.7;
+        border-bottom-left-radius: 24px;
+        border-bottom-right-radius: 24px;
+        margin: 0 auto;
+    }
     .desctop-img-yahts{
         display: none;
     }

@@ -39,38 +39,22 @@ body{
     margin: 0;
     width: 100%;
     height: 100%;
-    background-image: url(/img/main-yahtsblock/YachtAdventures.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
   @media screen and (min-width: 1280px){
     body{
-      width: 100%;
-      height: 100%;
-      background-image: url(/img/main-yahtsblock/YachtAdventures.png);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
+      background-image: url(../img/main-yahtsblock/YachtAdventures.png);
     }
   }
   @media screen and (max-width: 1279px){
     body{
-      width: 100%;
-      height: 100%;
-      background-image: url(/img/main-yahtsblock/Tablet.png);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
+      background-color: #11131F;
   }
 }
 @media screen and (max-width: 767px){
   body{
-    width: 100%;
-    height: 100%;
-    background-image: url(/img/main-yahtsblock/Mobile.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: #11131F;
 }
 }
