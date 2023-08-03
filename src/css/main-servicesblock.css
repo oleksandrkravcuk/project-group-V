@@ -84,7 +84,7 @@ background: var(--white, #F6F5EF);
 position: absolute;
 top: 268px;
 left: 24px;
-
+border: none;
 }
 @media only screen and (min-width: 768px) {
   .service-button{
