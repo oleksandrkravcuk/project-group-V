@@ -190,6 +190,12 @@
                 background-image: url(../img/main-yahtsblock/PC/collux2.jpg);
             }
         }
+        .btn-position {
+            position: fixed;
+            bottom: 40px;
+            right: 32px;
+            z-index: 200;
+          }
     }   
     .yahts-block{
         width: 100%;
@@ -395,6 +401,12 @@
         justify-content: center;
         margin-top: 32px;
     }
+    .btn-position {
+        position: fixed;
+        bottom: 40px;
+        right: 32px;
+        z-index: 200;
+      }
 }
 
 /* Mobile */
@@ -526,18 +538,18 @@
             height: 251px;
         }
     }
+    .btn-position {
+        position: fixed;
+        bottom: 40px;
+        right: 20px;
+        z-index: 200;
+      }
 }
 .scroll-to-top {
     position: relative;
   }
   
   
-  .btn-position {
-    position: fixed;
-    bottom: 40px;
-    right: 65px;
-    z-index: 200;
-  }
   
   .btn-style {
     background-color:#93ABAE;
