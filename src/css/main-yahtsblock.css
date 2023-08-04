@@ -271,36 +271,7 @@
 
 /* Planshet */
 @media screen and (min-width: 768px) and (max-width: 1279px){
-    .yahts-blemish{
-        width: 414px;
-        height: 414px;
-        position: relative;
-        z-index: 50;
-        left: 60px;
-        top: -220px;
-        transform: rotate(-45.074deg);
-        flex-shrink: 0;
-        border-radius: 414px;
-        opacity: 0.5;
-        background: #91AFBA;
-        filter: blur(100px);
-        margin: 0 auto;
-    }
-    .yahts-blemish-two{
-        position: relative;
-        z-index: 50;
-        left: 300px;
-        top: -500px;
-        width: 316px;
-        height: 316px;
-        transform: rotate(-45.074deg);
-        flex-shrink: 0;
-        border-radius: 316px;
-        opacity: 0.4;
-        background: #A6A9B2;
-        filter: blur(100px);
-        margin: 0 auto;
-    }
+    
     .desctop-img-yahts{
         display: none;
     }
@@ -350,11 +321,11 @@
     .yahts-container{
         position: relative;
         z-index: 100;
-        top: -750px;
+        top: -50px;
         width: 704px;
         height: 1019px;
         margin: 0 auto;
-        margin-bottom: -670px;
+        margin-bottom: 50px;
     }
     .plansheter{
         display: none;
@@ -439,8 +410,7 @@
         display: none;
     }
     .mobile-img-yahts{
-        position: fixed;
-        z-index: 0;
+        display: none;
     }
     .btn-style {
         height: 44px;
@@ -458,7 +428,7 @@
         margin-bottom: 80px;
     }
     .yahts-header{
-        width: 310px;
+        max-width: 310px;
         height: 120px;
         color: var(--white, #F6F5EF);
         font-family: 'DM Sans', sans-serif;
