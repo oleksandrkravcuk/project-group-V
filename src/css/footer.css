@@ -26,7 +26,7 @@
 /* ДЛЯ ПЛАНШЕТІВ */
 @media screen and (min-width: 768px) and (max-width: 1279px) {
     .footer-container {
-        max-width: 1280px;
+        max-width: 768px;
         padding-left: 32px;
         padding-right: 32px;
         margin-left: auto;
@@ -45,15 +45,23 @@
     /* ---------MOBILE--------- */
 
     @media screen and (max-width: 767px) {
-        .footer-container::before {
+        /* .footer-container::before {
             content: "";
             display: block;
             position: absolute;
-            /* width: 335px; */
             width: 95%;
             height: 1px;
             border: 1px;
             background-color: rgba(246, 245, 239, 0.2);
+
+            width: 335px;
+        } */
+
+        .footer-vector-line{
+            height: 1px;
+            border: 1px;
+            background-color: rgba(246, 245, 239, 0.2);          
+
         }
         .footer-circle-mobile{
             width: 420px;
@@ -272,6 +280,13 @@
             border: 1px;
             background-color: rgba(246, 245, 239, 0.2);
             }
+
+        /* .footer-vector-line {
+            height: 1px;
+            border: 1px;
+            background-color: rgba(246, 245, 239, 0.2);
+
+        } */
 
         .footer {
             position: relative;
@@ -505,12 +520,20 @@
         content: "";
         display: block;
         position: absolute;
-        /* width: 1216px; */
+        width: 1216px;
         width: 95%;
         height: 1px;
         border: 1px;
         background-color: rgba(246, 245, 239, 0.2);
     }
+    /* .footer-vector-line {
+        height: 1px;
+        border: 1px;
+        background-color: rgba(246, 245, 239, 0.2);
+
+    } */
+
+    
     .footer {
         position: relative;
         overflow: hidden;
