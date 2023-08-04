@@ -215,7 +215,6 @@
         align-items: baseline;
         justify-content: space-between;
         margin: 32px 32px 0 32px;
-        gap: auto;
     }
     .yahts-text {
         color: var(--white, #F6F5EF);
@@ -277,7 +276,7 @@
         height: 414px;
         position: relative;
         z-index: 50;
-        left: 70px;
+        left: 60px;
         top: -220px;
         transform: rotate(-45.074deg);
         flex-shrink: 0;
@@ -290,7 +289,7 @@
     .yahts-blemish-two{
         position: relative;
         z-index: 50;
-        left: 400px;
+        left: 300px;
         top: -500px;
         width: 316px;
         height: 316px;
@@ -300,19 +299,6 @@
         opacity: 0.4;
         background: #A6A9B2;
         filter: blur(100px);
-        margin: 0 auto;
-    }
-    .yahts-con-shade{
-        width: 260px;
-        height: 124px;
-        position: relative;
-        z-index: 1;
-        left: 86px;
-        top: -730px;
-        background-color: #11131F;
-        opacity: 0.7;
-        border-bottom-left-radius: 24px;
-        border-bottom-right-radius: 24px;
         margin: 0 auto;
     }
     .desctop-img-yahts{
@@ -364,10 +350,11 @@
     .yahts-container{
         position: relative;
         z-index: 100;
+        top: -750px;
         width: 704px;
         height: 1019px;
         margin: 0 auto;
-        margin-bottom: 80px;
+        margin-bottom: -670px;
     }
     .plansheter{
         display: none;
@@ -443,6 +430,22 @@
 /* Mobile */
 
 @media screen and (min-width: 320px) and (max-width: 767px){
+    .yahts-blemish{
+        width: 255px;
+        height: 255px;
+        transform: rotate(-44.916deg);
+        flex-shrink: 0;
+        position: relative;
+        z-index: 50;
+        left: 60px;
+        top: -220px;
+        background:#91AFBA;
+        opacity: 0.6000000238418579;
+        filter: blur(100px);
+        margin: 0 auto;
+    }
+
+
     .desctop-img-yahts{
         display: none;
     }
@@ -463,6 +466,7 @@
     }
 
     .yahts-text-block{
+        min-width: 320px;
         width: 335px;
         height: 203px;
         margin-bottom: 80px;
@@ -476,6 +480,7 @@
         font-weight: 500;
         line-height: 110%;
         letter-spacing: -1.62px;
+        margin-bottom: 40px;
     }
     .yahts-send-buuton{
         padding: 14px 28px;
@@ -496,14 +501,31 @@
         flex-direction: column;
     }
     .yahts-container{
+        min-width: 320px;
+        max-width: 335px;
         position: relative;
         z-index: 100;
-        top: -130px;
-        width: 335px;
+        top: -380px;
         height: 812px;
         margin-bottom: 80px;
     }
-    
+    .yahts-img{
+        margin: 16px auto;
+    }
+    .myslide{
+        max-width: 320px;
+    }
+    .yahts-cont{
+        min-width: 320px;
+        max-width: 335px;
+        
+        
+    }
+    .slider_wrapper{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .mobilsik{
         display: none;
     }
@@ -534,16 +556,22 @@
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         .arrow{
             background-image: url(./img/main-yahtsblock/Mobile/mob-arrow.jpg), url(./img/main-yahtsblock/Mobile/mob-arrowx2.jpg);
+            max-width: 299px;
+            height: 251px;
         }
     }
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         .ellen{
             background-image: url(./img/main-yahtsblock/Mobile/mob-elen.jpg), url(./img/main-yahtsblock/Mobile/mob-elenx2.jpg);
+            width: 299px;
+            height: 251px;
         }
     }
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         .salt{
             background-image: url(./img/main-yahtsblock/Mobile/mob-salt.jpg), url(./img/main-yahtsblock/Mobile/mob-saltx2.jpg);
+            width: 299px;
+            height: 251px;
         }
     }
 }
@@ -555,7 +583,7 @@
     position: fixed;
     bottom: 40px;
     right: 25px;
-    z-index: 20;
+    z-index: 200;
   }
   
   .btn-style {
