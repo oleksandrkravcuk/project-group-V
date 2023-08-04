@@ -136,8 +136,8 @@ Tabular data
 */
 
 /* table {
-	text-indent: 0; /* 1 */
-	border-color: inherit; /* 2 */
+	text-indent: 0; 
+	border-color: inherit; 
 } */
 
 /*
@@ -238,8 +238,8 @@ Correct the cursor style of increment and decrement buttons in Safari.
 */
 
 /* [type='search'] {
-	-webkit-appearance: textfield; /* 1 */
-	outline-offset: -2px; /* 2 */
+	-webkit-appearance: textfield;
+	outline-offset: -2px;
 } */
 
 /**
