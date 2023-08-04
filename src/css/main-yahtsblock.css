@@ -426,6 +426,8 @@
         width: 335px;
         height: 203px;
         margin-bottom: 80px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .yahts-header{
         max-width: 310px;
@@ -535,10 +537,11 @@
     position: relative;
   }
   
+  
   .btn-position {
     position: fixed;
     bottom: 40px;
-    right: 25px;
+    right: 65px;
     z-index: 200;
   }
   

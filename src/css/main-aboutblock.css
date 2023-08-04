@@ -43,7 +43,7 @@
 }
 
 .about-container-title {
-  width: 335px;
+  max-width: 335px;   /*Змінено з width:335px*/
   margin-bottom: 40px;
 }
 
