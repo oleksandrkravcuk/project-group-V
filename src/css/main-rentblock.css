@@ -127,7 +127,7 @@
     .input-yacht{
         margin-bottom:28px;
         background-color: transparent;
-        width: 335px;
+        width: 100%;
         border: none;
         border-bottom: 1px solid #F6F5EF;
        color: #ffffff;
@@ -441,5 +441,6 @@
 @media (min-width: 320px) and (max-width:767px) {
     .block-two-rent{
         margin-top: 40px;
+        width: 100%;
     }
 }
