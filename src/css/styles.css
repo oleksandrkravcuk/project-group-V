@@ -50,7 +50,7 @@ body{
   }
   @media screen and (min-width: 768px) and (max-width: 1279px){
     body{
-      background-image: url(/img/main-yahtsblock/Tablet.jpg);
+      background-image: url(../img/main-yahtsblock/Table.jpg);
   }
 }
 @media screen and (min-width: 320px) and (max-width: 767px){
