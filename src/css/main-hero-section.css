@@ -311,6 +311,7 @@ img {
 
 
 .hero-pics {
+    background-image: url(/img/hero/hero-bg-mobile@1x.jpg);
     /* background: url(/img/hero/rectangl.png) no-repeat;  */
     /* max-width: 363px; */
     max-height: 465px;
@@ -334,7 +335,7 @@ img {
     }
 }
 
-
+/* 
 .hero-pics::before {
     content: '';
     position: absolute;
@@ -344,7 +345,7 @@ img {
     mix-blend-mode: screen;
     border-radius: 18px;
 
-}
+} */
 
 @media screen and (min-width: 768px) {
     .hero-pics::before {
