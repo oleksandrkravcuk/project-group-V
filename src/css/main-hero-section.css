@@ -311,63 +311,44 @@ img {
 
 
 .hero-pics {
-    background-image: url(/img/hero/hero-bg-mobile@1x.jpg);
-    /* background: url(/img/hero/rectangl.png) no-repeat;  */
+    background-image: url(/img/hero/mask.png);
+    width: 280px;
+    height: 427px;
+    border-radius: 18px; 
     /* max-width: 363px; */
-    max-height: 465px;
-    /* flex-shrink: 0; */
+    /* max-height: 465px; */
+    flex-shrink: 0;
     /* width: 320px; */
-
+    
 }
 
 @media screen and (min-width: 768px) {
     .hero-pics {
-        /* background: url(/img/hero/rectangle-tabl-desc.png) no-repeat; */
-        max-width: 462px;
-        max-height: 651px;
+        background: url(/img/hero/mask-tab.png) no-repeat;
+        /* max-width: 462px;
+        max-height: 651px; */
+        width: 426px;
+            height: 598px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .hero-pics {
+        background: url(../img//hero//mask-desc.png) no-repeat;
         padding-right: 120px;
         margin-left: 0;
     }
 }
 
-/* 
-.hero-pics::before {
-    content: '';
-    position: absolute;
-    background: url(/img/hero/hero-bg-mobile@1x.jpg) lightgray 50% ;
-    width: 280px;
-    height: 427px;
-    mix-blend-mode: screen;
-    border-radius: 18px;
 
-} */
 
-@media screen and (min-width: 768px) {
-    .hero-pics::before {
-        background: url(/img/hero/hero-bg-tablet@1x.jpg) lightgray 50% ;
-        width: 426px;
-        height: 598px;
-        flex-shrink: 0;
-    }
-}
 
-@media screen and (min-width: 1280px) {
-    .hero-pics::before {
-        background: url(/img/hero/hero-bg-desc@1x.jpg) lightgray 50% ;
-    }
-}
 
 .hero-ceo {
     display: block;
     position: absolute;
     border-radius: 24px;
     margin-top: -50px;
-    /* margin-left: 215px; */
     margin-left: 156px;
 
 
