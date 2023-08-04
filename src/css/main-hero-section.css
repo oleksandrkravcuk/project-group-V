@@ -60,6 +60,22 @@ img {
 
 }
 
+.hero-text-container {
+    max-width: 332px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-text-container {
+        max-width: 698px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-text-container {
+        width: 554px;
+        margin-top: 76px;
+    }
+}
 
 
 .hero-title {
@@ -100,12 +116,7 @@ img {
     }
 }
 
-@media screen and (min-width: 1280px) {
-.hero-text-container {
-    width: 554px;
-    margin-top: 76px;
-}
-}
+
 
 
 .hero-text {
@@ -115,7 +126,7 @@ img {
     font-weight: 400;
     line-height: 1.4;
     letter-spacing: -0.28px;
-    max-width: 284px;
+    /* max-width: 284px; */
     /* max-width: 332px; */
     margin-bottom: 24px;
 }
