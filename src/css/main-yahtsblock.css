@@ -430,21 +430,6 @@
 /* Mobile */
 
 @media screen and (min-width: 320px) and (max-width: 767px){
-    .yahts-blemish{
-        width: 255px;
-        height: 255px;
-        transform: rotate(-44.916deg);
-        flex-shrink: 0;
-        position: relative;
-        z-index: 50;
-        left: 60px;
-        top: -220px;
-        background:#91AFBA;
-        opacity: 0.6000000238418579;
-        filter: blur(100px);
-        margin: 0 auto;
-    }
-
 
     .desctop-img-yahts{
         display: none;
