@@ -5,10 +5,10 @@ img {
 
 
 .hero-container {
-    min-width: 320px;
-    max-width: 375px;
-    margin-left: auto;
-    margin-right: auto;
+    /* min-width: 320px; */
+    max-width: 335px;
+    /* margin-left: auto;
+    margin-right: auto; */
     padding-left: 20px;
     padding-right: 20px;
     height: 765px;
@@ -303,7 +303,7 @@ img {
     /* max-width: 363px; */
     max-height: 465px;
     /* flex-shrink: 0; */
-    width: 320px;
+    /* width: 320px; */
 
 }
 
