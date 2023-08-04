@@ -390,6 +390,7 @@ img {
         width: 378px;
         height: 221px;
         margin-top: 111px;
+        margin-left: 20px;
     }
 }
 
@@ -407,14 +408,10 @@ img {
 @media screen and (min-width: 768px) {
     .hero-book-now {
         margin-top: 354px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .hero-book-now {
         margin-left: 32px;
     }
 }
+
 
 
 .hero-price {
