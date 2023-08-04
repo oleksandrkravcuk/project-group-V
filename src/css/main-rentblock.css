@@ -254,7 +254,7 @@
        
         width: 70%;
         max-width: 335px;
-        max-height: 90vh;
+        height: 80%;
        
         border-radius: 40px;
         background: #1F212D;
@@ -271,8 +271,8 @@
         opacity: 0.6;
         border-radius: 50%;
         filter: blur(100px);
-        top: 10%;
-        left: 18%;
+        top: 0;
+        left: 0;
         z-index: 0;
     }
 }
