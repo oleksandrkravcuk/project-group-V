@@ -285,7 +285,7 @@ img {
     font-family: DM Sans, sans-serif;
     font-size: 14px;
     font-weight: 700;
-    line-height: 1, 1;
+    line-height: 1.1;
     letter-spacing: 0.56px;
     text-transform: uppercase;
 
@@ -421,7 +421,7 @@ img {
     color: var(--footer-darkblue-color);
     font-size: 48px;
     font-weight: 400;
-    line-height: 1, 1;
+    line-height: 1.1;
     letter-spacing: -2.16px;
     text-transform: uppercase;
     margin-right: 14px;
