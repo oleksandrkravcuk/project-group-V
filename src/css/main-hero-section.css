@@ -326,7 +326,7 @@ img {
 .hero-pics::before {
     content: '';
     position: absolute;
-    background: url(/img/hero/hero-bg-mobile@1x.jpg) lightgray 50% / cover no-repeat;
+    background: url(/img/hero/hero-bg-mobile@1x.jpg) lightgray 50% ;
     width: 280px;
     height: 427px;
     mix-blend-mode: screen;
@@ -336,7 +336,7 @@ img {
 
 @media screen and (min-width: 768px) {
     .hero-pics::before {
-        background: url(/img/hero/hero-bg-tablet@1x.jpg) lightgray 50% / cover no-repeat;
+        background: url(/img/hero/hero-bg-tablet@1x.jpg) lightgray 50% ;
         width: 426px;
         height: 598px;
         flex-shrink: 0;
@@ -345,7 +345,7 @@ img {
 
 @media screen and (min-width: 1280px) {
     .hero-pics::before {
-        background: url(/img/hero/hero-bg-desc@1x.jpg) lightgray 50% / cover no-repeat;
+        background: url(/img/hero/hero-bg-desc@1x.jpg) lightgray 50% ;
     }
 }
 
